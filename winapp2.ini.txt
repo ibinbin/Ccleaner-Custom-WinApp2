@@ -2,17 +2,10 @@
 ; Application Cleaning file
 ;
 ; Notes
-; # of entries: 2,501
 ; To get the full benefits from this file, you should run CCleaner v3.09 at minimum, the latest version of CCleaner is always recommended though, as the file is tailored to the most recent version of CCleaner at any given time.
 ; Want to contribute entries you've written? Want to request a program be added? Register and post on the official Piriform Forums ( this thread http://bit.ly/k6E28m )
-; You can get the latest Winapp2.ini from my website: http://www.winapp2.com
-; Is CCleaner taking too long to load with Winapp2.ini? Try this: http://www.winapp2.com/trim.bat (place it in your ccleaner folder and run)
-; Get informed when there are updates! Like us on Facebook ( http://on.fb.me/vdjocS ) - Robert ( http://on.fb.me/A3FSwA ) - Shane      And/Or Follow us on Twitter ( http://bit.ly/tmfWa7 ) - Robert ( http://bit.ly/wXgN4Q ) - Shane
-; Authored/Compiled by Robert Ward and Shane Gowland, with special thanks to all of the users of the Piriform Forums and the SingularLabs Forums without whom this file would not be what it is.
-; Feeling generous? You can donate to Robert here: www.winapp2.com/donate.html  Shane here: www.singularlabs.com (click donate) and Piriform here: http://bit.ly/RTxQz9
 ; Email Rob (AT) winapp2 (DOT)com with comments, suggestions, or questions!
 ; Valid commands can be found on the Piriform Forums thread above.
-; Please do not host this file anywhere without permission. This is to facilitate proper distribution of the latest version. Thanks.
 
 [.NET Assembly Temps*]
 LangSecRef=3025
@@ -58,51 +51,6 @@ LangSecRef=3021
 DetectFile=%UserProfile%\.Thumbnails
 Default=False
 FileKey1=%UserProfile%\.Thumbnails|*.*|RECURSE
-
-[//N.P.P.D. RUSH//- The milk of Ultraviolet*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\270090\
-Default=False
-FileKey1=%LocalAppData%\NPPDRUSH\Cache|*.*|RECURSE
-FileKey2=%LocalAppData%\NPPDRUSH\GPUCache|*.*|RECURSE
-FileKey3=%LocalAppData%\NPPDRUSH|Web Data*|RECURSE
-
-[10 Years After*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\339240\
-Default=False
-FileKey1=%ProgramFiles%\Steam\SteamApps\common\10 Years After\10 Years After_Data|output_log.txt
-FileKey2=%LocalAppData%\VirtualStore\ProgramFiles*\Steam\SteamApps\common\10 Years After\10 Years After_Data|output_log.txt
-
-[1000 Amps*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\205690\
-Default=False
-FileKey1=%ProgramFiles%\Steam\SteamApps\common\1000 Amps|stdout.txt
-FileKey2=%LocalAppData%\VirtualStore\ProgramFiles*\Steam\SteamApps\common\1000 Amps|stdout.txt
-
-[140*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\242820\
-Default=False
-FileKey1=%ProgramFiles%\Steam\SteamApps\common\140\140_Data|output_log.txt
-FileKey2=%LocalAppData%\VirtualStore\ProgramFiles*\Steam\SteamApps\common\140\140_Data|output_log.txt
-
-[18 Wheels of Steel*]
-Section=Games
-Detect=HKCU\Software\ValuSoft
-Default=False
-FileKey1=%Documents%\18 WoS American Long Haul|*.log;*.crash
-FileKey2=%Documents%\18 WoS Extreme Trucker|*.log;*.crash
-FileKey3=%Documents%\18 WoS Extreme Trucker 2|*.log;*.crash
-FileKey4=%Documents%\18 WoS Haulin|*.log;*.crash
-
-[1954 Alcatraz*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\255280\
-Default=False
-FileKey1=%ProgramFiles%\Steam\SteamApps\common\1954 Alcatraz\Alcatraz_Data|output_log.txt
-FileKey2=%LocalAppData%\VirtualStore\ProgramFiles*\Steam\SteamApps\common\1954 Alcatraz\Alcatraz_Data|output_log.txt
 
 [1Click DVD Copy Pro*]
 LangSecRef=3023
@@ -162,31 +110,12 @@ FileKey2=%ProgramFiles%\360\360 Internet Security|*.log*|RECURSE
 FileKey3=%SystemDrive%\360SANDBOX|*.log*|RECURSE
 FileKey4=%LocalAppData%\VirtualStore\Program Files*\360\360 Internet Security|*.log*|RECURSE
 
-[3DMark Logs*]
-Section=Games
-DetectFile=%Documents%\3DMark
-Default=False
-FileKey1=%ProgramFiles%\Steam\SteamApps\common\3DMark|*.log|RECURSE
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamApps\common\3DMark|*.log|RECURSE
-
-[3DMark Saved Benchmarks*]
-Section=Games
-DetectFile=%Documents%\3DMark
-Default=False
-FileKey1=%Documents%\3DMark|*.3dmark-result
-
 [3GP Video Converter*]
 LangSecRef=3024
 Detect=HKCU\Software\ImTOO\3GP Video Converter
 Default=False
 RegKey1=HKCU\Software\ImTOO\3GP Video Converter\Settings|last_openpath
 RegKey2=HKCU\Software\ImTOO\3GP Video Converter\Settings|OuputDir
-
-[3SwitcheD*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\206610\
-Default=False
-FileKey1=%LocalAppData%\3SwitcheD\cache|*.*|RECURSE
 
 [3ware 3DM2*]
 LangSecRef=3024
@@ -443,13 +372,6 @@ Default=False
 RegKey1=HKCU\Software\Ace Explorer\Ace Explorer\Recent File List
 FileKey1=%AppData%\Ace Explorer|recentclose.ini
 
-[Ace of Spades*]
-Section=Games
-DetectFile=%ProgramFiles%\Steam\steamapps\common\aceofspades
-Default=False
-FileKey1=%ProgramFiles%\Steam\steamapps\common\aceofspades\logs|*.*
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\aceofspades\logs|*.*
-
 [Ace Utilities*]
 LangSecRef=3024
 Detect=HKCU\Software\Acelogix\Ace Utilities
@@ -471,14 +393,6 @@ Detect=HKCU\Software\AceBIT
 Default=False
 FileKey1=%CommonAppData%\Acebyte\Acebyte Utilities*\Log|*.*|RECURSE
 FileKey2=%LocalAppData%\VirtualStore\ProgramData\Acebyte\Acebyte Utilities*\Log|*.*|RECURSE
-
-[Acer Arcade Deluxe*]
-Section=Games
-DetectFile=%LocalAppData%\Acer Arcade Deluxe
-Default=False
-FileKey1=%CommonAppData%|ArcadeDexluxe2.log
-FileKey2=%LocalAppData%\Acer Arcade Deluxe|*.log
-FileKey3=%LocalAppData%\VirtualStore\ProgramData|ArcadeDexluxe2.log
 
 [AcooBrowser*]
 LangSecRef=3022
@@ -1052,64 +966,6 @@ FileKey4=%LocalAppData%\Aegisub\ffms2cache|*.*|REMOVESELF
 FileKey5=%ProgramFiles%\Aegisub|*.txt
 FileKey6=%LocalAppData%\VirtualStore\Program Files*\Aegisub|*.txt
 
-[Age of Conan*]
-Section=Games
-Detect=HKLM\Software\Funcom\Age of Conan
-Default=False
-FileKey1=%ProgramFiles%\Funcom\Age of Conan|patcher.log;chrome_debug.log;MiniDump.dmp;CrashLog.txt;ConanPatcher.exe.0.tmp;AgeOfConan.log
-FileKey2=%ProgramFiles%\Funcom\Age of Conan\OldLogs|*.*
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Funcom\Age of Conan|patcher.log;chrome_debug.log;MiniDump.dmp;CrashLog.txt;ConanPatcher.exe.0.tmp;AgeOfConan.log
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\Funcom\Age of Conan\OldLogs|*.*
-
-[Age of Empires Online*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\105430
-Default=False
-FileKey1=%ProgramFiles%\Steam\steamapps\common\Age Of Empires Online|PatchLog.txt;PatchLogDetail.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\Age Of Empires Online|PatchLog.txt;PatchLogDetail.txt
-
-[Age of Empires*]
-Section=Games
-Detect1=HKLM\Software\Microsoft\Games\Age of Empires
-Detect2=HKLM\Software\Microsoft\Microsoft Games\Age of Empires
-Detect3=HKLM\Software\Wow6432Node\Microsoft\microsoft games\age of empires 3
-Default=False
-FileKey1=%Documents%\My Games\Age of Mythology|*.txt
-FileKey2=%Documents%\My Games\Age of Empires 3|*.txt
-FileKey3=%Documents%\My Games\Age of Empires 3\RM|*.dmp.txt
-RegKey1=HKLM\Software\Microsoft\Games\Age of Empires\1.00|Zone
-RegKey2=HKLM\Software\Microsoft\Microsoft Games\Age of Empires|Zone
-RegKey3=HKLM\Software\Microsoft\Microsoft Games\Age of Empires Expansion\1.0|Zone
-RegKey4=HKLM\Software\Microsoft\Microsoft Games\Age of Empires\2.0|Zone
-RegKey5=HKLM\Software\Microsoft\Microsoft Games\Age of Empires II: The Conquerors Expansion\1.0|Zone
-ExcludeKey1=FILE|%ProgramFiles%\Microsoft Games\Age of Mythology|*Readme.rtf;*Readmex.rtf
-ExcludeKey2=FILE|%ProgramFiles%\Microsoft Games\Age of Empires III|*Readme.rtf;*ReadmeX.rtf;*ReadmeY.rtf
-
-[Age of Oracles Taras Journey*]
-Section=Games
-DetectFile=%CommonAppData%\JollyBear\Age of Oracles Taras Journey
-Default=False
-FileKey1=%CommonAppData%\JollyBear\Age of Oracles Taras Journey|error.*
-FileKey2=%LocalAppData%\VirtualStore\ProgramData\JollyBear\Age of Oracles Taras Journey|error.*
-
-[Age of Wonders II*]
-Section=Games
-DetectFile=%ProgramFiles%\Age of Wonders II
-Default=False
-FileKey1=%ProgramFiles%\Age of Wonders II|*aow2Log.txt
-FileKey2=%ProgramFiles%\Age of Wonders II\Resource\FX\Spell|*.lnk
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Age of Wonders II|*aow2Log.txt
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\Age of Wonders II\Resource\FX\Spell|*.lnk
-
-[Age of Wonders Shadow Magic*]
-Section=Games
-DetectFile=%ProgramFiles%\Age of Wonders II
-Default=False
-FileKey1=%ProgramFiles%\Age of Wonders Shadow Magic|*aowsmLog.txt
-FileKey2=%ProgramFiles%\Age of Wonders Shadow Magic\Resource\Maps|*.bak
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Age of Wonders Shadow Magic|*aowsmLog.txt
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\Age of Wonders Shadow Magic\Resource\Maps|*.bak
-
 [Agnitum Outpost Pro*]
 LangSecRef=3022
 Detect=HKLM\Software\Agnitum\Outpost Firewall
@@ -1233,16 +1089,6 @@ FileKey1=%AppData%\AIMP|*.bak
 FileKey2=%ProgramFiles%\AIMP2\Data\Profile|*.bak
 FileKey3=%LocalAppData%\VirtualStore\Program Files*\AIMP2\Data\Profile|*.bak
 
-[AirBuccaneers*]
-Section=Games
-DetectFile=%ProgramFiles%\Steam\Steamapps\common\AirBuccaneers
-Detect=HKCU\Software\Valve\Steam\Apps\223630
-Default=False
-FileKey1=%ProgramFiles%\Steam\Steamapps\common\AirBuccaneers\logs|*.*
-FileKey2=%ProgramFiles%\Steam\Steamapps\common\AirBuccaneers\abu_data|output_log.txt
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\common\AirBuccaneers\logs|*.*
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\common\AirBuccaneers\abu_data|output_log.txt
-
 [Aiseesoft Media Converter Ultimate*]
 LangSecRef=3023
 Detect=HKCU\Software\Aiseesoft Studio\Aiseesoft Media Converter Ultimate
@@ -1298,19 +1144,6 @@ DetectFile=%LocalAppData%\Alibaba\AliSetup
 Default=False
 FileKey1=%LocalAppData%\Alibaba\AliSetup\*|*.log
 
-[Alien Swarm*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\630
-Default=False
-FileKey1=%ProgramFiles%\Steam\steamapps\common\alien swarm\swarm|tilegen_log.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\alien swarm\swarm|tilegen_log.txt
-
-[Aliens: Colonial Marines*]
-Section=Games
-Detect=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Aliens: Colonial Marines_is1
-Default=False
-FileKey1=%Documents%\My Games\Aliens Colonial Marines\PecanGame\Logs|*.*
-
 [All In One Runtimes*]
 LangSecRef=3024
 DetectFile1=%SystemDrive%\AiO-Files
@@ -1325,19 +1158,6 @@ DetectFile=%ProgramFiles%\All Office Converter Platinum
 Default=False
 FileKey1=%ProgramFiles%\All Office Converter Platinum|Eventlog.txt
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\All Office Converter Platinum|Eventlog.txt
-
-[All Zombies Must Die! Installers*]
-Section=Games
-Detect=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\All Zombies Must Die!_is1
-Default=False
-Warning=This will remove AMD Driver Package, DirectX and Visual C++ installers in your All Zombies Must Die installation directory. They can be reinstalled in your installation source.
-FileKey1=%ProgramFiles%\Doublesix Games\All Zombies Must Die!\Prerequisites|*.*|REMOVESELF
-
-[All Zombies Must Die! Logs*]
-Section=Games
-Detect=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\All Zombies Must Die!_is1
-Default=False
-FileKey1=%Documents%\My Games\UnrealEngine3\Bzb2Game\Logs|*.*
 
 [AllDup Logs*]
 LangSecRef=3024
@@ -1365,15 +1185,6 @@ LangSecRef=3022
 Detect=HKCU\Software\aignes\deadlink
 Default=False
 FileKey1=%AppData%\aignes\AM-DeadLink|deadlink.log
-
-[Amazing World*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\293500
-Default=False
-FileKey1=%ProgramFiles%\Steam\SteamApps\Common\Amazing World\Cache|*.*|REMOVESELF
-FileKey2=%ProgramFiles%\Steam\SteamApps\common\Amazing World\AmazingWorld_Data|output_log.txt
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamApps\Common\Amazing World\Cache|*.*|REMOVESELF
-FileKey4=%ProgramFiles%\VirtualStore\Program Files*\Steam\SteamApps\common\Amazing World\AmazingWorld_Data|output_log.txt
 
 [Amazon Cloud Player Logs*]
 LangSecRef=3024
@@ -1453,20 +1264,6 @@ FileKey19=%LocalAppData%\VirtualStore\Program Files*\ATI Technologies|cccutil64.
 FileKey20=%LocalAppData%\VirtualStore\ProgramData\AMD\Fuel|*.txt
 FileKey21=%LocalAppData%\VirtualStore\ProgramData\AMD\KDB|*.log
 
-[America's Army 2*]
-Section=Games
-DetectFile=%ProgramFiles%\USArmy\America's Army 2
-Default=False
-FileKey1=%LocalAppData%\AA2DeployClient|debug*.*
-FileKey2=%ProgramFiles%\USArmy\America's Army 2|*.log|RECURSE
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\USArmy\America's Army 2|*.log|RECURSE
-
-[Amnesia - The Dark Descent*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\57300
-Default=False
-FileKey1=%Documents%\Amnesia|*.log|RECURSE
-
 [Amsn*]
 LangSecRef=3022
 Detect=HKCU\Software\aMSN
@@ -1490,12 +1287,6 @@ DetectFile=%CommonAppData%\Package Cache\3DBECED19CFC2819A7E0BE14463CF18FC8720D9
 Default=False
 FileKey1=%CommonAppData%\Package Cache\3DBECED19CFC2819A7E0BE14463CF18FC8720D91\amyuni_pdfconverter_5_00|*.log|RECURSE
 FileKey2=%LocalAppData%\VirtualStore\ProgramData\Package Cache\3DBECED19CFC2819A7E0BE14463CF18FC8720D91\amyuni_pdfconverter_5_00|*.log|RECURSE
-
-[And Yet It Moves*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\18700
-Default=False
-FileKey1=%AppData%\Broken Rules\And Yet It Moves Steam|console.log
 
 [Android Notifier Desktop*]
 LangSecRef=3022
@@ -1546,25 +1337,6 @@ LangSecRef=3021
 DetectFile=%ProgramFiles%\Anki\Anki.exe
 Default=False
 FileKey1=%AppData%\.anki\backups|*.*
-
-[Annie's Millions*]
-Section=Games
-DetectFile=%AppData%\PoBros\Annies Millions
-Default=False
-FileKey1=%AppData%\PoBros\Annies Millions|logfile.txt
-
-[ANNO 2070 Cache*]
-Section=Games
-DetectFile=%AppData%\Ubisoft\ANNO 2070\
-Default=False
-FileKey1=%AppData%\Ubisoft\ANNO 2070\Cache|*.*|REMOVESELF
-
-[ANNO 2070 Logs*]
-Section=Games
-DetectFile=%AppData%\Ubisoft\ANNO 2070\
-Default=False
-FileKey1=%AppData%\Ubisoft\ANNO 2070\Logs|*.log;*.dmp
-FileKey2=%AppData%\Ubisoft\ANNO 2070\Logs\netlogs|*.log
 
 [AntiVir Desktop IPM*]
 LangSecRef=3024
@@ -1777,12 +1549,6 @@ Default=False
 FileKey1=%UserProfile%\WapSter\AQQ Folder\Profiles\*\Data\Temp|*.*
 FileKey2=%LocalAppData%\MyPortal\AQQ Folder\Profiles\*\Data\Temp|*.*
 
-[Arasan Chess*]
-Section=Games
-Detect=HKCU\Software\Arasan\Arasan
-Default=False
-RegKey1=HKCU\Software\Arasan\Arasan\Recent File List
-
 [ArcSoft MediaConverter*]
 LangSecRef=3023
 Detect=HKLM\Software\arcsoft\mediaconverter
@@ -1927,12 +1693,6 @@ FileKey1=%LocalAppData%\CrashRpt\UnsentCrashReports|*.*|RECURSE
 FileKey2=%AppData%\Ashampoo\Ashampoo Snap 8|*.*|RECURSE
 FileKey3=%ProgramFiles%\Ashampoo\Ashampoo Snap 8|_NLogMsg.txt
 FileKey4=%LocalAppData%\VirtualStore\Program Files*\Ashampoo\Ashampoo Snap 8|_NLogMsg.txt
-
-[Ashley Jones - The Heart Of Egypt*]
-Section=Games
-DetectFile=%CommonAppData%\Fenomen Games\Ashley Jones - The Heart Of Egypt
-Default=False
-FileKey1=%CommonAppData%\Fenomen Games\Ashley Jones - The Heart Of Egypt|*.log
 
 [ASP.NET*]
 LangSecRef=3025
@@ -2552,20 +2312,6 @@ FileKey1=%LocalAppData%\Google\Chrome*\Application|old_chrome.exe
 FileKey2=%ProgramFiles%\Google\Chrome*\Application|old_chrome.exe
 FileKey3=%LocalAppData%\Amigo\Application|old_amigo.exe
 
-[Backyard Basketball 2004*]
-Section=Games
-DetectFile=%ProgramFiles%\Atari\Backyard Basketball 2004
-Default=False
-FileKey1=%ProgramFiles%\Atari\Backyard Basketball 2004|*.log
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Atari\Backyard Basketball 2004|*.log
-
-[Bad Piggies*]
-Section=Games
-DetectFile=%ProgramFiles%\Rovio\Bad Piggies
-Default=False
-FileKey1=%ProgramFiles%\Rovio\Bad Piggies\BadPiggies_Data|output_log.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Rovio\Bad Piggies\BadPiggies_Data|output_log.txt
-
 [Baidu PC Faster Dump Files*]
 LangSecRef=3024
 Detect=HKCU\Software\Baidu Security
@@ -2599,12 +2345,6 @@ Warning=This will delete the contents of your output folder.
 Default=False
 FileKey1=%Documents%\Bandicam|*.*|RECURSE
 
-[Banished Crash dump*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\242920
-Default=False
-FileKey1=%Documents%\Banished\Save|Crash*.dmp
-
 [Barnes and Noble Desktop Reader*]
 LangSecRef=3021
 DetectFile=%AppData%\Barnes & Noble\BNDesktopReader
@@ -2622,78 +2362,6 @@ LangSecRef=3024
 Detect=HKCU\Software\KC Softwares\BATExpert
 Default=False
 FileKey1=%AppData%\KC Softwares\BATExpert|*.log
-
-[Batman: Arkham Asylum*]
-Section=Games
-Detect1=HKLM\Software\Eidos Interactive Limited\Batman: Arkham Asylum
-Detect2=HKLM\Software\RocksteadyLtd\Batman Arkham Asylum
-Default=False
-FileKey1=%Documents%\Eidos\Batman Arkham Asylum\BmGame|*.log|RECURSE
-FileKey2=%Documents%\Square Enix\Batman Arkham Asylum GOTY\BmGame\Logs|Launch.log
-
-[Batman: Arkham City*]
-Section=Games
-Detect1=HKLM\Software\Warner Bros\Batman Arkham City
-Detect2=HKCU\Software\Valve\Steam\Apps\200260
-Detect3=HKCU\Software\Valve\Steam\Apps\57400
-Default=False
-FileKey1=%Documents%\WB Games\Batman Arkham City\BmGame\Logs|*.*
-FileKey2=%Documents%\WB Games\Batman Arkham City GOTY\BmGame\Logs|*.*
-
-[Batman: Arkham Origins*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\209000
-Default=False
-FileKey1=%ProgramFiles%\Steam\steamapps\common\Batman Arkham Origins\SinglePlayer\BMGame\Logs|*.*
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\Batman Arkham Origins\SinglePlayer\BMGame\Logs|*.*
-
-[Battle Islands*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\305260
-Default=False
-FileKey1=%ProgramFiles%\Steam\SteamApps\Common\Battle Islands\BattleIslands_Data|output_log.txt
-
-[Battle.Net Client Cache*]
-Section=Games
-Detect=HKCU\Software\Blizzard Entertainment\Battle.net
-Default=False
-FileKey1=%LocalAppData%\Battle.net\BrowserCache|*.*|RECURSE
-FileKey2=%LocalAppData%\Battle.net\Cache|*.*|RECURSE
-FileKey3=%CommonAppData%\BlizzardEntertainment\Battle.net\Cache|*.*|RECURSE
-FileKey4=%LocalAppData%\VirtualStore\ProgramData\BlizzardEntertainment\Battle.net\Cache|*.*|RECURSE
-
-[Battle.Net Client Logs*]
-Section=Games
-Detect=HKCU\Software\Blizzard Entertainment\Battle.net
-Default=False
-FileKey1=%CommonAppData%\Battle.net\Client\Blizzard Launcher.*\Logs|*.*|RECURSE
-FileKey2=%CommonAppData%\Battle.net\Client\Logs|*.*|RECURSE
-FileKey3=%LocalAppData%\Battle.Net\Logs|*.*|RECURSE
-FileKey4=%LocalAppData%\VirtualStore\ProgramData\Battle.net\Client\Blizzard Launcher.*\Logs|*.*|RECURSE
-FileKey5=%LocalAppData%\VirtualStore\ProgramData\Battle.net\Client\Logs|*.*|RECURSE
-FileKey6=%LocalAppData%\Blizzard Entertainment\System Survey|*.log|RECURSE
-
-[Battle.net*]
-Section=Games
-Detect=HKCU\Software\Blizzard Entertainment\Battle.net
-Default=False
-FileKey1=%CommonAppData%\Battle.net|*.log|RECURSE
-FileKey2=%CommonAppData%\Battle.net\Agent\Agent.*\Logs|*.*|RECURSE
-FileKey3=%CommonAppData%\Battle.net\Agent\Logs|*.*|RECURSE
-FileKey4=%CommonAppData%\Blizzard Entertainment\Battle.net\Cache|*.*|REMOVESELF
-FileKey5=%LocalAppData%\Blizzard Entertainment\Battle.Net\Cache|*.*|RECURSE
-FileKey6=%LocalAppData%\VirtualStore\ProgramData\Battle.net|*.log|RECURSE
-FileKey7=%LocalAppData%\VirtualStore\ProgramData\Battle.net\Agent\Agent.*\Logs|*.*|RECURSE
-FileKey8=%LocalAppData%\VirtualStore\ProgramData\Battle.net\Agent\Logs|*.*|RECURSE
-FileKey9=%LocalAppData%\VirtualStore\ProgramData\Blizzard Entertainment\Battle.net\Cache|*.*|REMOVESELF
-RegKey1=HKCU\Software\Blizzard Entertainment\Battle.net\Authenticator
-
-[Battlefield 3*]
-Section=Games
-Detect=HKLM\Software\EA Games\Battlefield 3
-Default=False
-FileKey1=%ProgramFiles%\Origin Games\Battlefield 3\__Installer|InstallLog.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Origin Games\Battlefield 3\__Installer|InstallLog.txt
 
 [BB FlashBack 4*]
 LangSecRef=3023
@@ -2757,40 +2425,6 @@ LangSecRef=3021
 Detect=HKCU\Software\Scooter Software\Beyond Compare
 Default=False
 FileKey1=%AppData%\Scooter Software\Beyond Compare*|*.bak;BCCommands.xml
-
-[Big City Adventure San Francisco*]
-Section=Games
-Detect=HKCU\Software\JollyBear\Big City Adventure San Francisco
-Default=False
-FileKey1=%CommonAppData%\JollyBear\Big City Adventure San Francisco|error.*
-FileKey2=%LocalAppData%\VirtualStore\ProgramData\JollyBear\Big City Adventure San Francisco|error.*
-
-[Big City Adventure Sydney*]
-Section=Games
-Detect=HKCU\Software\JollyBear\Big City Adventure Sydney
-Default=False
-FileKey1=%CommonAppData%\JollyBear\Big City Adventure Sydney|error.*
-FileKey2=%LocalAppData%\VirtualStore\ProgramData\JollyBear\Big City Adventure Sydney|error.*
-
-[Big Fish Games Installers*]
-Section=Games
-Detect=HKCU\Software\Big Fish Games
-Default=False
-FileKey1=%CommonAppData%\BigFishCache|*.exe|RECURSE
-FileKey2=%LocalAppData%\VirtualStore\ProgramData\BigFishCache|*.exe|RECURSE
-
-[Big Fish Games*]
-Section=Games
-Detect=HKCU\Software\Big Fish Games
-Default=False
-FileKey1=%CommonAppData%\Big Fish\Game Manager\Addons\BFGameLauncher|*.log|RECURSE
-FileKey2=%CommonAppData%\BigFishCache\GameManager\log|*.txt|RECURSE
-FileKey3=%CommonAppData%\BigFishGamesCache\GameManager\log|*.*
-FileKey4=%CommonAppData%\Big Fish Games\Game Manager\resources-old|*.*|RECURSE
-FileKey5=%LocalAppData%\VirtualStore\ProgramData\Big Fish\Game Manager\Addons\BFGameLauncher|*.log|RECURSE
-FileKey6=%LocalAppData%\VirtualStore\ProgramData\BigFishCache\GameManager\log|*.txt|RECURSE
-FileKey7=%LocalAppData%\VirtualStore\ProgramData\BigFishGamesCache\GameManager\log|*.*
-FileKey8=%LocalAppData%\VirtualStore\ProgramData\Big Fish Games\Game Manager\resources-old|*.*|RECURSE
 
 [Bing Dynamic*]
 LangSecRef=3023
@@ -2899,24 +2533,6 @@ FileKey13=%LocalAppData%\Packages\Microsoft.BingWeather_*\LocalState\navigationH
 FileKey14=%LocalAppData%\Packages\Microsoft.BingWeather_*\TempState|*.*|RECURSE
 RegKey1=HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.BingWeather_8wekyb3d8bbwe\SearchHistory
 
-[BioShock Infinite*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\8870
-Default=False
-FileKey1=%Documents%\my games\BioShock Infinite\Benchmarks|*.*
-
-[BIT.TRIP BEAT*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\63700
-Default=False
-FileKey1=%LocalAppData%\BIT.TRIP BEAT|*.txt
-
-[BIT.TRIP RUNNER*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\63710
-Default=False
-FileKey1=%LocalAppData%\BIT.TRIP RUNNER|*.txt
-
 [Bitcoin*]
 LangSecRef=3022
 Detect1=HKLM\SOFTWARE\Wow6432Node\Bitcoin Core
@@ -2981,25 +2597,6 @@ DetectFile=%AppData%\Research In Motion\BlackBerry\Intellisync
 Default=False
 FileKey1=%AppData%\Research In Motion\BlackBerry\Intellisync|*.log|RECURSE
 
-[Blade of Destiny*]
-Section=Games
-DetectFile=%Documents%\BladeofDestiny
-Default=False
-FileKey1=%Documents%\BladeofDestiny\Consolelog|*.*|RECURSE
-
-[Blade Symphony*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\225600
-Default=False
-FileKey1=%ProgramFiles%\Steam\Steamapps\common\Blade Symphony\workshop_temp|*.*|RECURSE
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\common\Blade Symphony\workshop_temp|*.*|RECURSE
-
-[Blades of Time (Debug)*]
-Section=Games
-DetectFile=%LocalAppData%\BladesOfTime
-Default=False
-FileKey1=%LocalAppData%\BladesOfTime\_debuginfo|*.*
-
 [BleachBit Error Reporting Log*]
 LangSecRef=3024
 Detect=HKCU\Software\BleachBit
@@ -3013,12 +2610,6 @@ Detect=HKLM\Software\BlenderFoundation
 Default=False
 FileKey1=%AppData%\Blender Foundation\Blender\*\config|recent-files.txt
 
-[Blimb Entertainment AIRSTRIKE3D*]
-Section=Games
-DetectFile1=%ProgramFiles%\Blimb Entertainment\AIRSTRIKE3D
-Default=False
-FileKey1=%ProgramFiles%\Blimb Entertainment\AIRSTRIKE3D|*.log
-
 [Blindwrite*]
 LangSecRef=3021
 Detect=HKCU\Software\VSO\Blindwrite
@@ -3029,15 +2620,6 @@ FileKey3=%CommonAppData%\VSO\Blindwrite\*|*.log|REMOVESELF
 FileKey4=%Documents%\PcSetup|*.log|REMOVESELF
 FileKey5=%UserProfile%|timestamp.txt
 FileKey6=%LocalAppData%\VirtualStore\ProgramData\VSO\Blindwrite\*|*.log|REMOVESELF
-
-[Blood Bowl: Legendary Edition*]
-Section=Games
-Detect=HKCU\Software\Valve\TestApp58520
-Detect2=HKCU\Software\Valve\Steam\Apps\58520
-Default=False
-FileKey1=%Documents%\BloodBowlLegendary|BB_LE000.log;CEGUI.log;SystemInfo000.log
-FileKey2=%Documents%\BloodBowlLegendary\Cache\3d|*.*|REMOVESELF
-FileKey3=%Documents%\BloodBowlLegendary\Cache\DB|*.*|REMOVESELF
 
 [Blue-Cloner*]
 LangSecRef=3023
@@ -3143,21 +2725,6 @@ SpecialDetect=DET_MOZILLA
 Default=False
 FileKey1=%AppData%\Mozilla\Firefox\Profiles\*\bookmarkbackups|*.json*
 
-[Borderlands 2*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\49520
-DetectFile=%Documents%\My Games\Borderlands 2
-Default=False
-FileKey1=%Documents%\My Games\Borderlands 2\WillowGame\Logs|*.*
-
-[Borderlands*]
-Section=Games
-Detect1=HKCU\Software\Valve\Steam\Apps\8980
-Detect2=HKCU\Software\Valve\Steam\Apps\901566
-Detect3=HKLM\Software\Borderlands
-Default=False
-FileKey1=%Documents%\My Games\Borderlands*\WillowGame\Logs|*.log
-
 [Borland C++ Builder 5.0*]
 LangSecRef=3024
 Detect=HKCU\Software\Borland\C++Builder\5.0
@@ -3181,12 +2748,6 @@ Default=False
 RegKey1=HKCU\Software\Borland\BDS\4.0\Closed Files
 RegKey2=HKCU\Software\Borland\BDS\4.0\Closed Projects
 RegKey3=HKCU\Software\Borland\BDS\4.0\Session
-
-[BOSS*]
-Section=Games
-DetectFile=%SystemDrive%\BOSS
-Default=False
-FileKey1=%SystemDrive%\BOSS\*|BOSSlog.*
 
 [Box*]
 LangSecRef=3031
@@ -3218,13 +2779,6 @@ LangSecRef=3021
 DetectFile=%SystemDrive%\Drivers\Broadcom Wireless LAN Driver
 Default=False
 FileKey1=%SystemDrive%\Drivers\Broadcom Wireless LAN Driver|*.log|RECURSE
-
-[Broforce*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\274190
-Default=False
-FileKey1=%ProgramFiles%\Steam\SteamApps\Broforce\*\Broforce Logs|*.csv
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamApps\Broforce\*\Broforce Logs|*.csv
 
 [Broken Shortcut Fixer*]
 LangSecRef=3024
@@ -3300,16 +2854,6 @@ DetectFile=%AppData%\bhv-gswvs\users
 Default=False
 FileKey1=%AppData%\bhv-gswvs\users\*\Buchstabenzoo|*.log
 
-[Bugsplat*]
-Section=Games
-Detect=HKCU\Software\Bugsplat
-Default=False
-RegKey1=HKCU\Software\Bugsplat\gaspowered\SupremeCommander
-RegKey2=HKCU\Software\Bugsplat\lol_beta_riotgames_com\LOL_Public
-RegKey3=HKCU\Software\Bugsplat\Pando_win\Pando
-RegKey4=HKCU\Software\Bugsplat\Relic\CoH
-RegKey5=HKCU\Software\Bugsplat\Relic\RelicDownloader
-
 [Bullzip PDF Printer*]
 LangSecRef=3022
 DetectFile=%AppData%\PDF Writer\Bullzip PDF Printer
@@ -3341,43 +2885,6 @@ LangSecRef=3021
 Detect=HKCU\Software\Bump Technologies, Inc.
 Default=False
 FileKey1=%LocalAppData%\Bump Technologies, Inc\BumpTop\Temp|*.*
-
-[Burger Shop*]
-Section=Games
-Detect=HKCU\Software\GoBit\BurgerShop
-Detect2=HKCU\Software\GoBit\BurgerShop2
-Default=False
-FileKey1=%CommonAppData%\GoBit Games\BurgerShop2\BigFishGames\cached|*.*|REMOVESELF
-FileKey2=%CommonAppData%\GoBit Games\BurgerShop2\GoBit\cached|*.*|REMOVESELF
-FileKey3=%ProgramFiles%\Burger Shop\cached|*.*|REMOVESELF
-FileKey4=%ProgramFiles%\Burger Shop|*.db;*.txt|RECURSE
-FileKey5=%ProgramFiles%\GoBit Games\Burger Shop 2|*.db;*.txt|RECURSE
-FileKey6=%LocalAppData%\VirtualStore\Program Files*\Burger Shop\cached|*.*|REMOVESELF
-FileKey7=%LocalAppData%\VirtualStore\Program Files*\Burger Shop|*.db;*.txt|RECURSE
-FileKey8=%LocalAppData%\VirtualStore\Program Files*\GoBit Games\Burger Shop 2|*.db;*.txt|RECURSE
-FileKey9=%LocalAppData%\VirtualStore\ProgramData\GoBit Games\BurgerShop2\BigFishGames\cached|*.*|REMOVESELF
-FileKey10=%LocalAppData%\VirtualStore\ProgramData\GoBit Games\BurgerShop2\GoBit\cached|*.*|REMOVESELF
-
-[Burn Zombie Burn! .NET Installer*]
-Section=Games
-Detect=HKLM\Software\Burn Zombie Burn
-Default=False
-Warning=This will remove the NET Framework 3.0 installer in your Burn Zombie Burn installation directory. It can be reinstalled in your installation source.
-FileKey1=%ProgramFiles%\P2 Games\Burn Zombie Burn\REQS\NET|*.*|REMOVESELF
-
-[Burn Zombie Burn! Log*]
-Section=Games
-Detect=HKLM\Software\Burn Zombie Burn
-Default=False
-FileKey1=%ProgramFiles%\P2 Games\Burn Zombie Burn|*.log
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\P2 Games\Burn Zombie Burn|*.log
-
-[Bus-Simulator 2009*]
-Section=Games
-DetectFile=%ProgramFiles%\Bus-Simulator 2009
-Default=False
-FileKey1=%LocalAppData%\VirtualStore\Program Files\Bus-Simulator 2009|*.dmp;*.log|RECURSE
-FileKey2=%ProgramFiles%\Bus-Simulator 2009|*.dmp;*.log|RECURSE
 
 [Business Objects Enterprise 11*]
 LangSecRef=3021
@@ -3442,21 +2949,6 @@ DetectFile=%LocalAppData%\calibre-cache\jsbrowser
 Default=False
 FileKey1=%LocalAppData%\calibre-cache\jsbrowser\data*|*.*|RECURSE
 
-[Call of Atlantis*]
-Section=Games
-Detect=HKLM\Software\Playrix\Call of Atlantis
-Default=False
-FileKey1=%CommonAppData%\Playrix Entertainment\Call of Atlantis\Log|*.*
-FileKey2=%LocalAppData%\VirtualStore\ProgramData\Playrix Entertainment\Call of Atlantis\Log|*.*
-
-[Call of Juarez Logs*]
-Section=Games
-Detect1=HKLM\Software\Techland\CallOfJuarez
-Detect2=HKLM\Software\Techland\CallofJuarez2
-Default=False
-FileKey1=%Documents%\call of juarez\Out\logs|*.log|RECURSE
-FileKey2=%Documents%\Call of Juarez - Bound in Blood\Out\logs|*.log|RECURSE
-
 [Camera*]
 LangSecRef=3031
 Detect=HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.Camera_8wekyb3d8bbwe
@@ -3510,34 +3002,11 @@ DetectFile=%LocalAppData%\Captcha_Brotherhood
 Default=False
 FileKey1=%LocalAppData%\Captcha_Brotherhood|solver_logFile.txt;plugin_logFile.txt;solver_captchaLog.txt
 
-[CasualArts*]
-Section=Games
-DetectFile=%AppData%\CasualArts
-Default=False
-FileKey1=%AppData%\casualArts\*|logfile.*;*.txt|RECURSE
-FileKey2=%CommonAppData%\casualArts|*.*|REMOVESELF
-FileKey3=%LocalAppData%\VirtualStore\ProgramData\casualArts|*.*|REMOVESELF
-
-[Cave Story+*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\200900
-Default=False
-FileKey1=%ProgramFiles%\Steam\steamapps\common\cave story+|log.txt
-FileKey2=%ProgramFiles%\Steam\steamapps\common\cave story+\data|*.DS_STORE|RECURSE
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\cave story+|log.txt
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\cave story+\data|*.DS_STORE|RECURSE
-
 [CBS Logs*]
 LangSecRef=3025
 Detect=HKLM\Software\Microsoft\Windows
 Default=False
 FileKey1=%WinDir%\Logs\CBS|cbs.log;*.cab
-
-[CC Magic Logs*]
-Section=Games
-DetectFile=%Documents%\Electronic Arts\CC Magic\Logs\
-Default=False
-FileKey1=%Documents%\Electronic Arts\CC Magic\Logs|*.log|RECURSE
 
 [CCDump*]
 LangSecRef=3024
@@ -3593,13 +3062,6 @@ RegKey5=HKCU\Software\Centarsia|RecentImage4
 RegKey6=HKCU\Software\Centarsia|RecentImage5
 RegKey7=HKCU\Software\Centarsia|RecentImage6
 
-[Ceville*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\23460
-Default=False
-FileKey1=%AppData%|ceville_console_history.txt
-FileKey2=%Documents%\Ceville\logs|*.*
-
 [CFE Exam Prep Course*]
 LangSecRef=3021
 DetectFile=%ProgramFiles%\CFE Exam Prep Course
@@ -3619,22 +3081,6 @@ LangSecRef=3024
 DetectFile=%Documents%\Chameleon Files
 Default=False
 FileKey1=%Documents%\Chameleon Files\Log|*.*|RECURSE
-
-[Champions Online*]
-Section=Games
-Detect1=HKCU\Software\Cryptic\Champions Online
-Detect2=HKCU\Software\Valve\Steam\Apps\9880
-Default=False
-FileKey1=%ProgramFiles%\Steam\Steamapps\Common\Champions Online\Champions Online\Live\Cache|*.*
-FileKey2=%ProgramFiles%\Steam\Steamapps\Common\Champions Online\Champions Online\PlayTest\Cache|*.*
-FileKey3=%ProgramFiles%\Steam\Steamapps\Common\Champions Online\Live\Logs\GameClient|*.*
-FileKey4=%ProgramFiles%\Steam\Steamapps\Common\Champions Online\Playtest\Logs\GameClient|*.*
-FileKey5=%Public%\Games\cryptic studios\Champions Online\Live\Cache|*.*
-FileKey6=%Public%\Games\cryptic studios\Champions Online\PlayTest\Cache|*.*
-FileKey7=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\Common\Champions Online\Champions Online\Live\Cache|*.*
-FileKey8=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\Common\Champions Online\Champions Online\PlayTest\Cache|*.*
-FileKey9=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\Common\Champions Online\Live\Logs\GameClient|*.*
-FileKey10=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\Common\Champions Online\Playtest\Logs\GameClient|*.*
 
 [Chatzilla*]
 LangSecRef=3026
@@ -3656,102 +3102,6 @@ Default=False
 FileKey1=%ProgramFiles%\Cheatbook Database 20*|*cheatlog.txt;*suchlog.txt
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\Cheatbook Database 20*|*cheatlog.txt;*suchlog.txt
 
-[Chicken Hunter*]
-Section=Games
-Detect=HKLM\Software\Chicken Hunter
-Default=False
-FileKey1=%ProgramFiles%\Chicken Hunter|debug.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Chicken Hunter|debug.txt
-
-[Chicken Invaders*]
-Section=Games
-DetectFile1=%AppData%\InterAction studios\CI3demo
-DetectFile2=%ProgramFiles%\ChickenInvaders*
-DetectFile3=%ProgramFiles%\Chicken Invaders*
-Default=False
-FileKey1=%AppData%\InterAction studios|*.log|RECURSE
-FileKey2=%CommonAppData%\InterAction studios|*.log|RECURSE
-FileKey3=%ProgramFiles%\ChickenInvaders*|*.log|RECURSE
-FileKey4=%ProgramFiles%\Chicken Invaders*|*.log|RECURSE
-FileKey5=%ProgramFiles%\*\Chicken Invaders*|*.log;*.html;*.png|RECURSE
-FileKey6=%LocalAppData%\VirtualStore\Program Files*\ChickenInvaders*|*.log|RECURSE
-FileKey7=%LocalAppData%\VirtualStore\Program Files*\Chicken Invaders*|*.log|RECURSE
-FileKey8=%LocalAppData%\VirtualStore\Program Files*\*\Chicken Invaders*|*.log;*.html;*.png|RECURSE
-FileKey9=%LocalAppData%\VirtualStore\ProgramData\InterAction studios|*.log|RECURSE
-
-[Children of the Nile*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\17100
-Default=False
-FileKey1=%Documents%\Tilted Mill\Children of the Nile|*.log
-
-[Chivalry: Medieval Warfare*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\219640
-Default=False
-FileKey1=%Documents%\My Games\Chivalry Medieval Warfare\UDKGame\Logs|*.*
-FileKey2=%Documents%\My Games\Chivalry Medieval Warfare Beta\UDKGame\Logs|*.*
-
-[Christmas Adventure - Candy Storm*]
-Section=Games
-Detect1=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Christmas Adventure - Candy Storm1.1
-Detect2=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Christmas Adventure - Candy Stormv1.3
-DetectFile=%ProgramFiles%\Christmas Adventure - Candy Storm
-Default=False
-FileKey1=%AppData%\Argali|*.log|RECURSE
-FileKey2=%ProgramFiles%\Christmas Adventure - Candy Storm|*.nfo;*.txt
-FileKey3=%ProgramFiles%\Foxy Games\Christmas Adventure - Candy Storm|*.html;*.msi;*.nfo;*.txt;*.url
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\Christmas Adventure - Candy Storm|*.nfo;*.txt
-FileKey5=%LocalAppData%\VirtualStore\Program Files*\Foxy Games\Christmas Adventure - Candy Storm|*.html;*.msi;*.nfo;*.txt;*.url
-
-[Christmas Griddlers 2014*]
-Section=Games
-Detect=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Christmas Griddlers 20141.1
-Default=False
-FileKey1=%ProgramFiles%\Christmas Griddlers*|*.ico;*.html;*msi;*.nfo;*.txt;*.url|RECURSE
-FileKey2=%ProgramFiles%\*\Christmas Griddlers*|*.ico;*.html;*msi;*.nfo;*.txt;*.url|RECURSE
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Christmas Griddlers*|*.ico;*.html;*msi;*.nfo;*.txt;*.url|RECURSE
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\*\Christmas Griddlers*|*.ico;*.html;*msi;*.nfo;*.txt;*.url|RECURSE
-
-[Christmas Wonderland*]
-Section=Games
-Detect1=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Christmas Wonderland 2
-Detect2=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Christmas Wonderland 21.0
-Detect3=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Christmas Wonderland 31.0
-Detect4=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Christmas Wonderland 3 1.0
-Detect5=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Christmas Wonderland 4 1.0.4
-Detect6=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Christmas Wonderland 41.1
-Default=False
-FileKey1=%ProgramFiles%\Christmas Wonderland 3|*.nfo;*.url|RECURSE
-FileKey2=%ProgramFiles%\Christmas Wonderland 4|*.nfo;*.txt;*.url|RECURSE
-FileKey3=%ProgramFiles%\Foxy Games\Christmas Wonderland 2|*.url
-FileKey4=%ProgramFiles%\Foxy Games\Christmas Wonderland 3|*html
-FileKey5=%ProgramFiles%\Foxy Games\Christmas Wonderland 4|*html;*.nfo;*.txt;*.url|RECURSE
-FileKey6=%SystemDrive%\Games\Christmas Wonderland 3|*.nfo;*.url|RECURSE
-FileKey7=%SystemDrive%\Games\Christmas Wonderland 4|*.nfo;*.txt;*.url|RECURSE
-FileKey8=%LocalAppData%\VirtualStore\Program Files*\Christmas Wonderland 3|*.nfo;*.url|RECURSE
-FileKey9=%LocalAppData%\VirtualStore\Program Files*\Christmas Wonderland 4|*.nfo;*.txt;*.url|RECURSE
-FileKey10=%LocalAppData%\VirtualStore\Program Files*\Foxy Games\Christmas Wonderland 2|*.url
-FileKey11=%LocalAppData%\VirtualStore\Program Files*\Foxy Games\Christmas Wonderland 3|*html
-FileKey12=%LocalAppData%\VirtualStore\Program Files*\Foxy Games\Christmas Wonderland 4|*html;*.nfo;*.txt;*.url|RECURSE
-
-[Chuzzle Deluxe*]
-Section=Games
-DetectFile=%ProgramFiles%\HP Games\Chuzzle Deluxe
-Default=False
-FileKey1=%ProgramFiles%\HP Games\Chuzzle Deluxe|DEBUG.TXT
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\HP Games\Chuzzle Deluxe|DEBUG.TXT
-
-[Cinema Tycoon*]
-Section=Games
-Detect1=HKCU\Software\TikGames\Cinema Tycoon Gold
-Detect2=HKLM\Software\Big Fish Games\Persistence\GameDB\Cinema Tycoon Gold
-Detect3=HKLM\Software\Big Fish Games\Persistence\Install\F2676T1L1
-Detect4=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Cinema Tycoon 2  Movie Mania1.0
-Default=False
-FileKey1=%ProgramFiles%\Cinema Tycoon*|flashplayer7_winax.exe;*.txt
-FileKey2=%WinDir%|Cinema Tycoon 2  Movie Mania Setup Log.txt
-
 [Cisco Connect*]
 LangSecRef=3022
 DetectFile=%CommonAppData%\Cisco Systems\Cisco Connect
@@ -3764,12 +3114,6 @@ LangSecRef=3021
 DetectFile=%LocalAppData%\Cisco\Cisco HostScan\log
 Default=False
 FileKey1=%LocalAppData%\Cisco\Cisco HostScan\log|*.log
-
-[Cities in Motion*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\73010
-Default=False
-FileKey1=%Documents%\Cities in Motion|log_metro.txt
 
 [Citrix ICA Client*]
 LangSecRef=3021
@@ -3787,61 +3131,6 @@ LangSecRef=3021
 Detect=HKLM\Software\Citrix\ICA Client
 Default=False
 FileKey1=%CommonAppData%\Citrix\Citrix Online Plug-in - Web|*.msi;*.cab;eula*.rtf
-
-[Civilization 4 Cache*]
-Section=Games
-Detect=HKLM\Software\Firaxis Games
-Default=False
-FileKey1=%AppData%\My Games\Beyond the Sword\cache|*.dat
-FileKey2=%AppData%\My Games\Sid Meier's Civilization 4\cache|*.dat
-FileKey3=%AppData%\My Games\Warlords\cache|*.dat
-FileKey4=%LocalAppData%\My Games\Beyond the Sword\cache|*.dat
-FileKey5=%LocalAppData%\My Games\Sid Meier's Civilization 4\cache|*.dat
-FileKey6=%LocalAppData%\My Games\Sid Meier's Civilization IV Colonization\cache|*.dat
-FileKey7=%LocalAppData%\My Games\Warlords\cache|*.dat
-
-[Civilization 4 Logs*]
-Section=Games
-Detect=HKLM\Software\Firaxis Games
-Default=False
-FileKey1=%Documents%\My Games\Beyond the Sword\Logs|*.*
-FileKey2=%Documents%\My Games\Sid Meier's Civilization 4\Logs|*.*
-FileKey3=%Documents%\My Games\Sid Meier's Civilization IV Colonization\Logs|*.*
-FileKey4=%Documents%\My Games\Warlords\Logs|*.*
-FileKey5=%ProgramFiles%\Firaxis Games\Sid Meier's Civilization 4|*.txt
-FileKey6=%ProgramFiles%\Firaxis Games\Sid Meier's Civilization 4\Beyond the Sword|*.txt
-FileKey7=%ProgramFiles%\Firaxis Games\Sid Meier's Civilization 4\Warlords|*.txt
-FileKey8=%ProgramFiles%\2K Games\Firaxis Games\Sid Meier's Civilization IV Colonization|*.txt
-FileKey9=%LocalAppData%\VirtualStore\Program Files*\Firaxis Games\Sid Meier's Civilization 4|*.txt
-FileKey10=%LocalAppData%\VirtualStore\Program Files*\Firaxis Games\Sid Meier's Civilization 4\Beyond the Sword|*.txt
-FileKey11=%LocalAppData%\VirtualStore\Program Files*\Firaxis Games\Sid Meier's Civilization 4\Warlords|*.txt
-FileKey12=%LocalAppData%\VirtualStore\Program Files*\2K Games\Firaxis Games\Sid Meier's Civilization IV Colonization|*.txt
-
-[Civilization 5 Cache*]
-Section=Games
-Detect=HKCU\Software\Firaxis\Civilization5
-Default=False
-FileKey1=%Documents%\My Games\Sid Meier's Civilization 5\cache|*.db
-
-[Civilization 5 Installers*]
-Section=Games
-Detect=HKCU\Software\Firaxis\Civilization5
-Default=False
-Warning=This will remove DirectX and Visual C++ installers in your Civilization 5 installation directory. They can be reinstalled in your installation source.
-FileKey1=%ProgramFiles%\Civilization V*\DirectX|*.*|REMOVESELF
-FileKey2=%ProgramFiles%\Civilization V*\VCRedist|*.*|REMOVESELF
-
-[Civilization 5 Logs*]
-Section=Games
-Detect=HKCU\Software\Firaxis\Civilization5
-Default=False
-FileKey1=%Documents%\My Games\Sid Meier's Civilization 5\Logs|*.*
-
-[Civilization 5 Old Autosaves*]
-Section=Games
-Detect=HKCU\Software\Firaxis\Civilization5
-Default=False
-FileKey1=%Documents%\My Games\Sid Meier's Civilization 5\Saves\*\auto\prev|*.Civ5Save
 
 [Clam Sentinel*]
 LangSecRef=3021
@@ -4018,12 +3307,6 @@ Detect=HKCU\Software\CoffeeCup Software\GIF Animator
 Default=False
 RegKey1=HKCU\Software\CoffeeCup Software\GIF Animator\Settings\MRU
 
-[Cogs*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\26500
-Default=False
-FileKey1=%LocalAppData%\Lazy 8 Studio\Cogs|log.txt
-
 [Colorblind Assistant*]
 LangSecRef=3023
 DetectFile=%AppData%\Colorblind Assistant
@@ -4136,24 +3419,6 @@ FileKey8=%LocalAppData%\VirtualStore\ProgramData\Comodo\CisDumps|*.*
 FileKey9=%LocalAppData%\VirtualStore\ProgramData\Comodo Downloader|*.*
 FileKey10=%LocalAppData%\VirtualStore\ProgramData\Comodo\Installer|*.*
 
-[Company of Heroes Cache*]
-Section=Games
-DetectFile1=%Documents%\My Games\Company of Heroes\
-DetectFile2=%Documents%\My Games\Company of Heroes Relaunch\
-Default=False
-FileKey1=%Documents%\My Games\Company of Heroes\Cache|*.*
-FileKey2=%Documents%\My Games\Company of Heroes Relaunch\Cache|*.*
-
-[Company of Heroes Logs*]
-Section=Games
-DetectFile1=%Documents%\My Games\Company of Heroes\
-DetectFile2=%Documents%\My Games\Company of Heroes Relaunch\
-Default=False
-FileKey1=%Documents%\My Games\Company of Heroes|*.log
-FileKey2=%Documents%\My Games\Company of Heroes Relaunch|*.log
-FileKey3=%Documents%\My Games\Company of Heroes\LogFiles|*.*
-FileKey4=%Documents%\My Games\Company of Heroes Relaunch\LogFiles|*.*
-
 [Compatibility Assistant*]
 LangSecRef=3025
 Detect=HKCU\Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Compatibility Assistant
@@ -4220,13 +3485,6 @@ FileKey1=%CommonAppData%\Connectify\cache|*.time;*.cache;*.runtime
 FileKey2=%ProgramFiles%\Connectify\Installer|*.*|REMOVESELF
 FileKey3=%ProgramFiles%\Connectify\Portal|*.*|REMOVESELF
 FileKey4=%LocalAppData%\VirtualStore\ProgramData\Connectify\cache|*.time;*.cache;*.runtime
-
-[Conquer Online Log*]
-Section=Games
-DetectFile=%ProgramFiles%\NetDragon\Conquer Online 2.0\AutoPatch
-Default=False
-FileKey1=%ProgramFiles%\NetDragon\Conquer Online 2.0\AutoPatch|Update.log
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\NetDragon\Conquer Online 2.0\AutoPatch|Update.log
 
 [ConTEXT*]
 LangSecRef=3021
@@ -4525,21 +3783,6 @@ SpecialDetect=DET_MOZILLA
 Default=False
 FileKey1=%AppData%\Mozilla\Firefox\Crash Reports|*.*|REMOVESELF
 
-[Crayon Physics Deluxe*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\26900
-Default=False
-FileKey1=%AppData%\Crayon Physics Deluxe|log.txt
-FileKey2=%AppData%\Crayon Physics Deluxe\data\recordings\temp|current_recording.tmp
-FileKey3=%ProgramFiles%\Steam\steamapps\common\crayon physics deluxe|log.txt
-FileKey4=%ProgramFiles%\Steam\steamapps\common\crayon physics deluxe\cache|*.*
-FileKey5=%ProgramFiles%\Steam\steamapps\common\crayon physics deluxe\data\editor|*.tmp
-FileKey6=%ProgramFiles%\Steam\steamapps\common\crayon physics deluxe\data\recordings\temp|*.tmp
-FileKey7=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\crayon physics deluxe|log.txt
-FileKey8=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\crayon physics deluxe\cache|*.*
-FileKey9=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\crayon physics deluxe\data\editor|*.tmp
-FileKey10=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\crayon physics deluxe\data\recordings\temp|*.tmp
-
 [Creative Installation Information*]
 LangSecRef=3021
 DetectFile=%ProgramFiles%\Creative Installation Information
@@ -4582,15 +3825,6 @@ Default=False
 FileKey1=%LocalAppData%\CrypTool2\Temp|*.*|REMOVESELF
 RegKey1=HKCU\Software\CrypTool2.0|recentFileList
 
-[Crysis 3*]
-Section=Games
-Detect1=HKLM\Software\Crytek\Crysis 3
-Detect2=HKLM\Software\Wow6432Node\Crytek\Crysis 3
-Default=False
-FileKey1=%ProgramFiles%\Origin Games\Crysis 3\LogBackups|*.*
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Origin Games\Crysis 3\LogBackups|*.*
-FileKey3=%UserProfile%\Saved Games\Crysis 3|*.Log.txt
-
 [CrystalDiskInfo*]
 LangSecRef=3024
 DetectFile=%ProgramFiles%\CrystalDiskInfo\Smart
@@ -4598,14 +3832,6 @@ Default=False
 Warning=This will delete all saved SMART data (for history/graph function).
 FileKey1=%ProgramFiles%\CrystalDiskInfo\Smart|*.*|RECURSE
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\CrystalDiskInfo\Smart|*.*|RECURSE
-
-[Curse Client*]
-Section=Games
-Detect=HKCU\Software\Classes\Curse
-Default=False
-FileKey1=%LocalAppData%\Apps\2.0|*.Log|RECURSE
-FileKey2=%AppData%\Curse Client|*.log
-FileKey3=%AppData%\Curse Client\Logs|*.*
 
 [CursorFX*]
 LangSecRef=3024
@@ -4869,44 +4095,6 @@ Default=False
 RegKey1=HKCU\Software\DAMN\DAMN NFO Viewer|WorkingDirectory
 RegKey2=HKCU\Software\DAMN\DAMN NFO Viewer\Recently Viewed Files
 
-[Damned*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\251170
-Default=False
-FileKey1=%ProgramFiles%\Steam\SteamApps\Common\Damned|*.log|RECURSE
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamApps\Common\Damned|*.log|RECURSE
-
-[Dangerous Waters*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\1600
-DetectFile=%ProgramFiles%\Sonalysts Combat Simulations\Dangerous Waters
-Default=False
-FileKey1=%ProgramFiles%\Sonalysts Combat Simulations\Dangerous Waters|*.log
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Sonalysts Combat Simulations\Dangerous Waters|*.log
-FileKey3=%ProgramFiles%\Steam\SteamApps\Common\Dangerous Waters|*.log
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamApps\Common\Dangerous Waters|*.log
-
-[Dark Blood Online*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\267790
-Default=False
-FileKey1=%AppData%\DarkBlood ServiceST|*.txt
-FileKey2=%ProgramFiles%\Steam\SteamApps\Common\Dark Blood\logs|*.*|RECURSE
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamApps\Common\Dark Blood\logs|*.*|RECURSE
-
-[DARK*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\225360\
-Default=False
-FileKey1=%AppData%\Kalypso Media\Dark|log.txt
-
-[Darkspore*]
-Section=Games
-DetectFile=%ProgramFiles%\Origin Games\Darkspore
-Default=False
-FileKey1=%ProgramFiles%\Origin Games\Darkspore|*.log|RECURSE
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Origin Games\Darkspore|*.log|RECURSE
-
 [Dashlane Cache*]
 LangSecRef=3022
 DetectFile=%AppData%\Dashlane
@@ -4950,51 +4138,11 @@ Detect=HKCU\Software\Tobit
 Default=False
 FileKey1=%SystemDrive%\David\Archive\USER\*\temp|*.*
 
-[DayZ*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\221100
-Default=False
-FileKey1=%LocalAppData%\DayZ|DayZ.mdmp;DayZ.bidmp
-
 [DBFView*]
 LangSecRef=3021
 Detect=HKCU\Software\DBFView
 Default=False
 RegKey1=HKCU\Software\DBFView\DBFView\Recent File List
-
-[DC Universe Online*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\24200
-Default=False
-FileKey1=%Documents%\My Games\DC Universe Online\Logs|*.*
-FileKey2=%ProgramFiles%\Steam\SteamApps\Common\DC Universe Online|.downloadInfo.txt;.downloadStats.txt
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamApps\Common\DC Universe Online|.downloadInfo.txt;.downloadStats.txt
-
-[Dead Island*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\91310
-Default=False
-FileKey1=%Documents%\DeadIsland\out\logs|*.*
-
-[Dear Esther*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\203810
-Default=False
-FileKey1=%ProgramFiles%\Steam\Steamapps\common\dear esther\dearesther|*.tmp
-FileKey2=%ProgramFiles%\Steam\Steamapps\common\dear esther\dearesther\resource|*.icns
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\common\dear esther\dearesther|*.tmp
-
-[Death to Spies: Moment of Truth*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\34410
-Default=False
-FileKey1=%Documents%\My Games\Smersh_MT\Cache|*.*
-
-[Death Track: Resurrection*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\7840
-Default=False
-FileKey1=%Documents%\Skyfallen Entertaiment\DeathTrack\Logs|*.*
 
 [Debenu Logs*]
 LangSecRef=3021
@@ -5015,13 +4163,6 @@ LangSecRef=3024
 Detect=HKCU\Software\Astonsoft\DeepBurner
 Default=False
 FileKey1=%AppData%\DeepBurner|DeepBurner.log
-
-[Defense Grid: The Awakening*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\18500
-Default=False
-FileKey1=%ProgramFiles%\Steam\steamapps\common\defensegridtheawakening\Shaders\Generated|*.cache
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\defensegridtheawakening\Shaders\Generated|*.cache
 
 [Defraggler*]
 LangSecRef=3024
@@ -5091,74 +4232,6 @@ Detect=HKCU\Software\Microsoft\Dependency Walker
 Default=False
 RegKey1=HKCU\Software\Microsoft\Dependency Walker\Recent File List
 
-[Deponia*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\214340
-DetectFile=%LocalAppData%\Daedalic Entertainment\Deponia
-Default=False
-FileKey1=%LocalAppData%\Daedalic Entertainment\Deponia|*.log
-
-[Desura Dumps*]
-Section=Games
-Detect1=HKLM\Software\Desura
-Detect2=HKLM\Software\Wow6432node\Desura
-DetectFile=%ProgramFiles%\Desura
-Default=False
-FileKey1=%CommonAppData%\Desura\DesuraApp\dumps|*.*
-FileKey2=%LocalAppData%\VirtualStore\ProgramData\Desura\DesuraApp\dumps|*.*
-
-[Desura Game Cache*]
-Section=Games
-Detect=HKLM\Software\Desura
-DetectFile=%ProgramFiles%\Desura
-Default=False
-FileKey1=%CommonAppData%\Desura\DesuraApp\Cache|*.*|RECURSE
-FileKey2=%ProgramFiles%\Desura\Cache\games|*.*|RECURSE
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Desura\Cache\games|*.*|RECURSE
-FileKey4=%LocalAppData%\VirtualStore\ProgramData\Desura\DesuraApp\Cache|*.*|RECURSE
-
-[Desura Game Installation Tools*]
-Section=Games
-Detect=HKLM\Software\Desura
-DetectFile=%ProgramFiles%\Desura
-Default=False
-Warning=This will remove tools that are needed in game installations. Don't use this is you have limited bandwidth as they will be re-downloaded on next game installation that needs the same tool.
-FileKey1=%CommonAppData%\Desura\DesuraApp\tools|*.*|RECURSE
-FileKey2=%LocalAppData%\VirtualStore\ProgramData\Desura\DesuraApp\tools|*.*|RECURSE
-ExcludeKey1=PATH|%CommonAppData%\Desura\DesuraApp\tools\installcheck
-
-[Desura Logs*]
-Section=Games
-Detect=HKLM\Software\Desura
-DetectFile=%ProgramFiles%\Desura
-Default=False
-FileKey1=%CommonAppData%\Desura\DesuraApp|update_log.txt
-FileKey2=%ProgramFiles%\Desura|*.log
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Desura|*.log
-FileKey4=%LocalAppData%\VirtualStore\ProgramData\Desura\DesuraApp|update_log.txt
-
-[Desura Update Backups*]
-Section=Games
-Detect=HKLM\Software\Desura
-DetectFile=%ProgramFiles%\Desura
-Default=False
-FileKey1=%ProgramFiles%\Desura|*.exe_old
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Desura|*.exe_old
-
-[Desura Web Cache*]
-Section=Games
-Detect=HKLM\Software\Desura
-DetectFile=%ProgramFiles%\Desura
-Default=False
-FileKey1=%CommonAppData%\Desura\DesuraApp|webcore_cache.sqlite
-FileKey2=%LocalAppData%\VirtualStore\ProgramData\Desura\DesuraApp|webcore_cache.sqlite
-
-[Deus Ex*]
-Section=Games
-DetectFile=%SystemDrive%\DeusEx\System
-Default=False
-FileKey1=%SystemDrive%\DeusEx\System|DeusEx.log;Detected.log
-
 [Device Icon Downloads*]
 LangSecRef=3025
 DetectFile=%WinDir%\System32\config\systemprofile\AppData\Local\Microsoft\Device Metadata\dmrccache\downloads\
@@ -5204,25 +4277,6 @@ LangSecRef=3024
 Detect=HKCU\Software\Dexpot
 Default=False
 FileKey1=%AppData%\Dexpot|*.log
-
-[Diablo 2 + LOD Logs*]
-Section=Games
-Detect=HKCU\Software\Blizzard Entertainment\Diablo II
-Default=False
-FileKey1=%ProgramFiles%\Diablo II|bnupdate.log;BnetLog.txt;D*.txt
-FileKey2=%SystemDrive%\Diablo II|bnupdate.log;BnetLog.txt;D*.txt
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Diablo II|bnupdate.log;BnetLog.txt;D*.txt
-
-[Diablo III Logs*]
-Section=Games
-Detect=HKCU\Software\Blizzard Entertainment\D3
-Default=False
-FileKey1=%CommonAppData%\Battle.net\Setup\diablo3_engb\Log|*.*
-FileKey2=%ProgramFiles%\Diablo III\Logs|*.*
-FileKey3=%ProgramFiles%\Diablo III Beta\Logs|*.*
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\Diablo III\Logs|*.*
-FileKey5=%LocalAppData%\VirtualStore\Program Files*\Diablo III Beta\Logs|*.*
-FileKey6=%LocalAppData%\VirtualStore\ProgramData\Battle.net\Setup\diablo3_engb\Log|*.*
 
 [Diagnostics Logs*]
 LangSecRef=3025
@@ -5273,13 +4327,6 @@ Detect=HKLM\Software\GPSoftware\Directory Opus
 Default=False
 FileKey1=%AppData%\GPSoftware\Directory Opus\Icon Cache Roaming|*.*|RECURSE
 FileKey2=%LocalAppData%\GPSoftware\Directory Opus\Thumbnail Cache|*.*|RECURSE
-
-[Dishonored*]
-Section=Games
-Detect=HKCU\Software\Arkane\Dishonored
-DetectFile=%Documents%\My Games\Dishonored
-Default=False
-FileKey1=%Documents%\My Games\Dishonored\DishonoredGame\Logs|*.*
 
 [Disk Space Fan History*]
 LangSecRef=3024
@@ -5386,20 +4433,6 @@ Detect=HKCU\Software\Infospace\DogpileToolbar
 Default=False
 RegKey1=HKCU\Software\Infospace\DogpileToolbar\History|1-terms
 
-[Dollar Dash*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\214320
-Default=False
-FileKey1=%Documents%\My Games\DollarDash\PKGame\Logs|*.*
-
-[Don't Starve*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\219740
-Default=False
-FileKey1=%ProgramFiles%\Steam\steamapps\common\dont_starve\bin|log.txt
-FileKey2=%Documents%\Klei\DoNotStarve|log.txt
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\dont_starve\bin|log.txt
-
 [Dooble Cache*]
 LangSecRef=3022
 DetectFile=%SystemDrive%\Dooble
@@ -5467,12 +4500,6 @@ Default=False
 FileKey1=%LocalAppData%\DownTango|application.log
 FileKey2=%LocalAppData%\DownTango\Logs|log.txt
 
-[Dr. Despicable�s Dastardly Deeds*]
-Section=Games
-DetectFile=%AppData%\HitPoint Studios\DrD
-Default=False
-FileKey1=%AppData%\HitPoint Studios\DrD|logfile.txt
-
 [Dr. Kaiser - (DKS) PC Watcher*]
 LangSecRef=3024
 DetectFile=%WinDir%\DKSService.exe
@@ -5491,15 +4518,6 @@ LangSecRef=3024
 DetectFile=%UserProfile%\Doctor Web
 Default=False
 FileKey1=%UserProfile%\Doctor Web|*.log
-
-[Dragon Age: Origins*]
-Section=Games
-Detect1=HKCU\Software\BioWare\Dragon Age
-Detect2=HKLM\Software\Wow6432Node\BioWare\Dragon Age
-Default=False
-FileKey1=%CommonAppData%\BioWare\Dragon Age\DA Updater\Logs|*.*
-FileKey2=%Documents%\BioWare\Dragon Age\Logs|*.*
-FileKey3=%LocalAppData%\VirtualStore\ProgramData\BioWare\Dragon Age\DA Updater\Logs|*.*
 
 [DriveImage XML*]
 LangSecRef=3021
@@ -5686,13 +4704,6 @@ Detect=HKCU\Software\Vitalwerks\DUC
 Default=False
 FileKey1=%LocalAppData%\Vitalwerks\DUC|DUC.log
 
-[Duke Nukem 3D*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\225140
-Default=False
-FileKey1=%ProgramFiles%\Steam\SteamApps\common\Duke Nukem 3D\bin|stderr.txt;stdout.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamApps\common\Duke Nukem 3D\bin|stderr.txt;stdout.txt
-
 [DUMo*]
 LangSecRef=3024
 Detect=HKCU\Software\KC Softwares\DUMo
@@ -5704,12 +4715,6 @@ LangSecRef=3026
 SpecialDetect=DET_MOZILLA
 Default=False
 FileKey1=%AppData%\Mozilla|*.dmp|RECURSE
-
-[Dungeons - The Dark Lord*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\200550
-Default=False
-FileKey1=%AppData%\Kalypso Media\Dungeons - The Dark Lord|log.txt
 
 [Dup Detector*]
 LangSecRef=3023
@@ -5871,35 +4876,6 @@ Default=False
 FileKey1=%CommonAppData%\Dyn\Updater|*.log;*.msi
 FileKey2=%LocalAppData%\VirtualStore\ProgramData\Dyn\Updater|*.log;*.msi
 
-[EA Core Cache*]
-Section=Games
-Detect=HKCU\Software\EA Games\EA Core
-Default=False
-FileKey1=%CommonAppData%\EA Core\Cache|*.*|REMOVESELF
-FileKey2=%LocalAppData%\EA Core\Cache|*.*|REMOVESELF
-FileKey3=%LocalAppData%\VirtualStore\ProgramData\EA Core\Cache|*.*|REMOVESELF
-
-[EA Core Logs*]
-Section=Games
-Detect=HKCU\Software\EA Games\EA Core
-Default=False
-FileKey1=%CommonAppData%\EA Logs|*.*
-FileKey2=%CommonAppData%\Electronic Arts\EA Core\logs|*.*
-FileKey3=%LocalAppData%\VirtualStore\ProgramData\EA Logs|*.*
-FileKey4=%LocalAppData%\VirtualStore\ProgramData\Electronic Arts\EA Core\logs|*.*
-
-[EA Download Manager*]
-Section=Games
-Detect=HKLM\Software\Electronic Arts\EADM
-Default=False
-FileKey1=%LocalAppData%\Electronic Arts\EADMUI\Web Cache|*.*|RECURSE
-
-[Earth 2160*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\19000
-Default=False
-FileKey1=%Documents%\Earth 2160\FontsCache|*.*
-
 [Earth Alerts (Images)*]
 LangSecRef=3022
 Detect=HKCU\Software\South Wind Technologies\Earth Alerts
@@ -6007,15 +4983,6 @@ DetectFile=%AppData%\The Toro Company
 Default=False
 FileKey1=%AppData%\The Toro Company|ECXTRAoutput.txt
 
-[Edna & Harvey: Harvey's New Eyes*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\219910
-DetectFile=%LocalAppData%\Daedalic Entertainment\Harvey
-Default=False
-FileKey1=%LocalAppData%\Daedalic Entertainment\Harvey|*.log
-FileKey2=%ProgramFiles%\Steam\Steamapps\common\Edna and Harvey Harvey's New Eyes|stderr.txt
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\common\Edna and Harvey Harvey's New Eyes|stderr.txt
-
 [Effective File Search*]
 LangSecRef=3024
 Detect=HKCU\Software\SOW\EFS
@@ -6035,13 +5002,6 @@ Detect=HKCU\Software\ElcomSoft\Elcomsoft Wireless Security Auditor
 Default=False
 FileKey1=%ProgramFiles%\Elcomsoft Password Recovery\Elcomsoft Wireless Security Auditor|*.log
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\Elcomsoft Password Recovery\Elcomsoft Wireless Security Auditor|*.log
-
-[Elder Scrolls Online*]
-Section=Games
-DetectFile=%Documents%\Elder Scrolls Online
-Default=False
-FileKey1=%Documents%\Elder Scrolls Online\Errors|*.*
-FileKey2=%Documents%\Elder Scrolls Online\Logs|*.*
 
 [ElsterFormular*]
 LangSecRef=3021
@@ -6254,26 +5214,6 @@ Detect=HKLM\Software\clients\mail\essentialpim pro
 Default=False
 FileKey1=%AppData%\EssentialPIM Pro\Logs|*.*
 
-[Euro Truck Simulator Profile backups*]
-Section=Games
-Detect1=HKCU\Software\SCS Software
-Detect2=HKLM\Software\SCS Software
-Default=False
-Warning=This will delete your Euro Truck Simulator profile backups. A profile backup of latest game version will regenerate at next start.
-FileKey1=%Documents%\Euro Truck Simulator|backups.txt
-FileKey2=%Documents%\Euro Truck Simulator 2|backups.txt
-FileKey3=%Documents%\Euro Truck Simulator\profiles*.bak|*.*|REMOVESELF
-FileKey4=%Documents%\Euro Truck Simulator 2\profiles*.bak|*.*|REMOVESELF
-
-[Euro Truck Simulator*]
-Section=Games
-Detect1=HKCU\Software\SCS Software
-Detect2=HKLM\Software\SCS Software
-DetectFile=%ProgramFiles%\Euro Truck Simulator 2
-Default=False
-FileKey1=%Documents%\Euro Truck Simulator|*.log;*.crash
-FileKey2=%Documents%\Euro Truck Simulator 2|*.log;*log.txt;*.crash
-
 [EuroSYSTEMS CoCut Professional 2011*]
 LangSecRef=3021
 Detect=HKCU\Software\EuroSYSTEMS\CoCut Professional 2011
@@ -6298,19 +5238,6 @@ Default=False
 FileKey1=%ProgramFiles%\Eusing Free Registry Cleaner\Backup|*.*
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\Eusing Free Registry Cleaner\Backup|*.*
 
-[EVE Online*]
-Section=Games
-Detect=HKCU\Software\CCP
-Default=False
-FileKey1=%Documents%\EVE\Logs|*.*|RECURSE
-FileKey2=%LocalAppData%\CCP\EVE|history.txt
-
-[EVEMon*]
-Section=Games
-Detect=HKCU\Software\CCP
-Default=False
-FileKey1=%AppData%\EVEMon|*.bak
-
 [Evernote Skitch*]
 LangSecRef=3021
 Detect=HKCU\Software\Evernote\Skitch
@@ -6324,13 +5251,6 @@ Detect=HKCU\Software\Evernote
 Default=False
 FileKey1=%LocalAppData%\Evernote\Evernote\AutoUpdate|*.exe
 FileKey2=%LocalAppData%\Evernote\Evernote\Updates|*.*
-
-[Everyday Genius: SquareLogic*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\32150
-DetectFile=%AppData%\SquareLogic
-Default=False
-FileKey1=%AppData%\SquareLogic|*.log
 
 [Exif Tag Remover*]
 LangSecRef=3024
@@ -6426,13 +5346,6 @@ Detect=HKCU\Software\Lenovo
 Default=False
 FileKey1=%SystemDrive%|Faceprov.*
 
-[Fantasy Wars*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\63900
-Default=False
-FileKey1=%ProgramFiles%\Steam\Steamapps\common\Fantasy Wars|gui_log.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\common\Fantasy Wars|gui_log.txt
-
 [FAR Manager 1.7*]
 LangSecRef=3021
 Detect=HKCU\Software\Far
@@ -6469,42 +5382,11 @@ RegKey3=HKCU\Software\Far2\SavedHistory
 RegKey4=HKCU\Software\Far2\SavedViewHistory
 RegKey6=HKCU\Software\Far2\Viewer\LastPositions
 
-[Farming Simulator Old Autosaves*]
-Section=Games
-Detect=HKLM\Software\SCS Software
-Default=False
-FileKey1=%Documents%\My Games\FarmingSimulator2011\savegame*|*.*|REMOVESELF
-FileKey2=%Documents%\My Games\FarmingSimulator2011\savegame*_autoBackup*|*.*|REMOVESELF
-FileKey3=%Documents%\My Games\FarmingSimulator2011\savegame1_autoBackup*|*.*|REMOVESELF
-FileKey4=%Documents%\My Games\FarmingSimulator2013\savegame*|*.*|REMOVESELF
-ExcludeKey1=PATH|%Documents%\My Games\FarmingSimulator2011\savegame1\*
-ExcludeKey2=PATH|%Documents%\My Games\FarmingSimulator2013\savegame1\*
-ExcludeKey3=PATH|%Documents%\My Games\FarmingSimulator2013\savegameBackup
-
-[Farming Simulator*]
-Section=Games
-Detect=HKLM\Software\SCS Software
-Default=False
-FileKey1=%Documents%\My Games\FarmingSimulator2011|*.txt
-FileKey2=%Documents%\My Games\FarmingSimulator2011\pdlc2.1|*.dlc|REMOVESELF
-FileKey3=%Documents%\My Games\FarmingSimulator2011\shader_cache|*.xml|REMOVESELF
-FileKey4=%Documents%\My Games\FarmingSimulator2013|*.txt
-FileKey5=%Documents%\My Games\FarmingSimulator2013\pdlc|*.dlc|REMOVESELF
-FileKey6=%Documents%\My Games\FarmingSimulator2013\shader_cache|*.shc|REMOVESELF
-
 [Fast Clean Pro*]
 LangSecRef=3024
 DetectFile=%LocalAppData%\Fastcleanpro
 Default=False
 FileKey1=%LocalAppData%\Fastcleanpro\logs|*.*
-
-[Faster Than Light*]
-Section=Games
-DetectFile=%Documents%\My Games\FasterThanLight
-Detect=HKCU\Software\Valve\Steam\Apps\212680
-Default=False
-FileKey1=%ProgramFiles%\Steam\steamapps\common\FTL Faster Than Light\crashlogs|*.*
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\FTL Faster Than Light\crashlogs|*.*
 
 [FastStone Capture More*]
 LangSecRef=3024
@@ -6556,12 +5438,6 @@ LangSecRef=3025
 Detect=HKLM\Software\Microsoft\Feeds
 Default=False
 FileKey1=%LocalAppData%\Microsoft\Feeds Cache|*.*|RECURSE
-
-[FEZ*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\224760
-Default=False
-FileKey1=%AppData%\FEZ|Debug Log.txt
 
 [FFsplit Logs*]
 LangSecRef=3023
@@ -6670,12 +5546,6 @@ Default=False
 FileKey1=%ProgramFiles%\Mozilla Firefox|*.log
 FileKey2=%AppData%\Mozilla|*.log|RECURSE
 FileKey3=%LocalAppData%\VirtualStore\Program Files*\Mozilla Firefox|*.log
-
-[Fishdom: H2O*]
-Section=Games
-DetectFile=%AppData%\Playrix Entertainment\Fishdom H2O Final
-Default=False
-FileKey1=%AppData%\Playrix Entertainment\Fishdom H2O Final|log.html
 
 [FixCleaner*]
 LangSecRef=3024
@@ -6940,13 +5810,6 @@ Default=False
 FileKey1=%AppData%\Foxit Software\Foxit Reader\StartPage\Start|history.txt
 RegKey1=HKCU\Software\Foxit Software\Foxit Reader 6.0\Preferences\History\Options
 
-[Fractal: Make Blooms Not War*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\61310
-Default=False
-FileKey1=%ProgramFiles%\Steam\Steamapps\common\Fractal\fractal_data|output_log.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\common\Fractal\fractal_data|output_log.txt
-
 [Fre:ac*]
 LangSecRef=3024
 DetectFile=%AppData%\freac
@@ -7002,13 +5865,6 @@ FileKey1=%AppData%\FrostWire\.AppSpecialShare|*.*|RECURSE
 FileKey2=%AppData%\FrostWire\azureus|*.*|RECURSE
 FileKey3=%Documents%\FrostWire\Incomplete|*.*|RECURSE
 
-[Frozen Synapse*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\98200
-Default=False
-FileKey1=%ProgramFiles%\Steam\Steamapps\common\Frozen Synapse|*.log
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\common\Frozen Synapse|*.log
-
 [FULL-DISKfighter*]
 LangSecRef=3024
 Detect=HKCU\Software\Fighters\FDPRO
@@ -7025,13 +5881,6 @@ FileKey8=%LocalAppData%\VirtualStore\ProgramData\Common Toolkit Suite\Tools\Logs
 FileKey9=%LocalAppData%\VirtualStore\ProgramData\Fighters\FULL-DISKfighter\Logs|*.log
 FileKey10=%LocalAppData%\VirtualStore\ProgramData\Fighters\Suite\Logs|*.log
 FileKey11=%LocalAppData%\VirtualStore\ProgramData\Fighters\Tray\Logs|*.log
-
-[Full Tilt Poker*]
-Section=Games
-DetectFile=%ProgramFiles%\Full Tilt Poker.net
-Default=False
-FileKey1=%ProgramFiles%\Full Tilt Poker.net\Cache|*.*
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Full Tilt Poker.net\Cache|*.*
 
 [G-Data Logs*]
 LangSecRef=3023
@@ -7142,71 +5991,6 @@ RegKey6=HKCU\Software\Game Maker\Version 8\Preferences|Recent5
 RegKey7=HKCU\Software\Game Maker\Version 8\Preferences|Recent6
 RegKey8=HKCU\Software\Game Maker\Version 8\Preferences|Recent7
 RegKey9=HKCU\Software\Game Maker\Version 8\Preferences|GameDir
-
-[Games for Windows Live (DirectX)*]
-Section=Games
-Detect1=HKCR\Installer\Products\3128052F989958E40A8727EB849371FE
-Detect2=HKCR\Installer\Products\81024F76746FC3D4EB268FBCF42ECF5D
-Default=False
-Warning=This will remove the DirectX installers that come with the Games for Windows - LIVE client.
-FileKey1=%ProgramFiles%\Microsoft Games for Windows - LIVE\Redist|*.*|RECURSE
-
-[Games For Windows Logs*]
-Section=Games
-DetectFile=%LocalAppData%\Microsoft\GFWLive
-Default=False
-FileKey1=%CommonAppData%\Microsoft\GFWLive\Install\Logs|*.log
-FileKey2=%LocalAppData%\Microsoft\GFWLive|*.log|RECURSE
-FileKey3=%ProgramFiles%\Microsoft Games for Windows - LIVE\Client|dotNetFx40_Client_setup.exe
-FileKey4=%LocalAppData%\VirtualStore\ProgramData\Microsoft\GFWLive\Install\Logs|*.log
-
-[GameSave Manager*]
-LangSecRef=3021
-Detect1=HKCR\GSM_gsba
-Detect2=HKCR\GSM_gsdu
-Detect3=HKCR\GSM_gsms
-Default=False
-FileKey1=%AppData%\GameSave Manager*\TaskLogs|*.*
-FileKey2=%AppData%\GameSave Manager*\TaskCache|*.*
-FileKey3=%AppData%\GameSave Manager*\GameCache|*.*
-FileKey4=%AppData%\GameSave Manager*\$$ CacheDir $$|*.*|REMOVESELF
-FileKey5=%ProgramFiles%\GameSave Manager*\settings|*.log;ScanResults.txt|RECURSE
-FileKey6=%LocalAppData%\VirtualStore\Program Files*\GameSave Manager*\settings|*.log;ScanResults.txt|RECURSE
-
-[Gardens Inc. 2 - The Road to Fame*]
-Section=Games
-Detect=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\{BBB8E5A9-EE43-491D-9A2D-84172C3C9384}_is1
-Default=False
-FileKey1=%ProgramFiles%\*\Gardens Inc. 2*|*.ico;*.html;*msi;*.nfo;*.txt;*.url|RECURSE
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\*\Gardens Inc. 2*|*.html;*.nfo;*.txt|RECURSE
-
-[Gardenscapes*]
-Section=Games
-DetectFile=%AppData%\Playrix Entertainment\Gardenscapes
-Default=False
-FileKey1=%AppData%\Playrix Entertainment\Gardenscapes|log.html
-
-[Garena Messenger*]
-Section=Games
-Detect=HKCU\Software\Garena\im
-DetectFile=%ProgramFiles%\Garena Plus\GarenaMessenger.exe
-Default=False
-FileKey1=%CommonAppData%\GarenaMessenger|im.log;im.log.*
-FileKey2=%CommonAppData%\GarenaMessenger\cache\screencapture|*.*
-FileKey3=%CommonAppData%\GarenaMessenger\cache\emoticon|*.*
-FileKey4=%CommonAppData%\GarenaMessenger\cache\customAvatar\buddy|*.*
-FileKey5=%CommonAppData%\GarenaMessenger\cache\clan|*.*|RECURSE
-FileKey6=%CommonAppData%\GarenaMessenger\garena.game.plugins|*.tmp
-FileKey7=%CommonAppData%\GarenaMessenger\UpdateManager|*.*|RECURSE
-FileKey8=%CommonAppData%\GarenaMessenger\update|*.*|RECURSE
-FileKey9=%LocalAppData%\VirtualStore\ProgramData\GarenaMessenger|im.log;im.log.*
-FileKey10=%LocalAppData%\VirtualStore\ProgramData\GarenaMessenger\cache\screencapture|*.*
-FileKey11=%LocalAppData%\VirtualStore\ProgramData\GarenaMessenger\cache\emoticon|*.*
-FileKey12=%LocalAppData%\VirtualStore\ProgramData\GarenaMessenger\cache\customAvatar\buddy|*.*
-FileKey13=%LocalAppData%\VirtualStore\ProgramData\GarenaMessenger\cache\clan|*.*|RECURSE
-FileKey14=%LocalAppData%\VirtualStore\ProgramData\GarenaMessenger\garena.game.plugins|*.tmp
-FileKey15=%LocalAppData%\VirtualStore\ProgramData\GarenaMessenger\UpdateManager|*.*|RECURSE
-FileKey16=%LocalAppData%\VirtualStore\ProgramData\GarenaMessenger\update|*.*|RECURSE
 
 [Garmin Express*]
 LangSecRef=3024
@@ -7415,12 +6199,6 @@ FileKey2=%LocalAppData%\Microsoft\Windows|*.gbck
 FileKey3=%UserProfile%|*.gbck
 FileKey4=%WinDir%\System32\config|*.gbck
 
-[GMG Capsule*]
-Section=Games
-DetectFile=%LocalAppData%\Green Man Gaming\Capsule
-Default=False
-FileKey1=%LocalAppData%\Green Man Gaming\Capsule\Logfiles|*.*
-
 [GMote*]
 LangSecRef=3024
 DetectFile=%AppData%\Gmote
@@ -7456,12 +6234,6 @@ LangSecRef=3021
 DetectFile=%ProgramFiles%\GoalScape
 Default=False
 FileKey1=%AppData%\com.goalscape.app.*\Logging|*.*|RECURSE
-
-[Goat Simulator*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\265930\
-Default=False
-FileKey1=%Documents%\my games\GoatSim\GoatGame\Logs|*.*
 
 [Gom Player More*]
 LangSecRef=3023
@@ -7593,18 +6365,6 @@ Default=False
 FileKey1=%ProgramFiles%\GoPlayer|*.log
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\GoPlayer|*.log
 
-[Gotham City Impostors*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\206210
-Default=False
-FileKey1=%Documents%\WB Games\Gotham City Impostors - Free To Play|*.log
-
-[Gothic III Logs*]
-Section=Games
-Detect=HKCU\Software\JoWooD Productions Software AG\Gothic III
-Default=False
-FileKey1=%ProgramFiles%\Gothic III|setup*.txt
-
 [GPU Cache*]
 LangSecRef=3029
 SpecialDetect=DET_CHROME
@@ -7628,19 +6388,6 @@ Detect=HKCU\Software\Gradekeeper
 Default=False
 FileKey1=%AppData%\Gradekeeper|*.*
 
-[Gratuitous Space Battles Debug*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\41800
-Default=False
-FileKey1=%Documents%\My Games\GratuitousSpaceBattles\debug|*.*
-
-[Gratuitous Space Battles Temp*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\41800
-Default=False
-FileKey1=%ProgramFiles%\Steam\Steamapps\common\gratuitous space battles\data\temp|*.*|RECURSE
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\common\gratuitous space battles\data\temp|*.*|RECURSE
-
 [Gravity Guy*]
 LangSecRef=3031
 Detect=HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\MiniclipSA.GravityGuy_gpanv85qtf6rc
@@ -7651,12 +6398,6 @@ FileKey2=%LocalAppData%\Packages\MiniclipSA.GravityGuy_*\AC\Microsoft\CryptnetUr
 FileKey3=%LocalAppData%\Packages\MiniclipSA.GravityGuy_*\AC\INetCache|*.*|RECURSE
 FileKey4=%LocalAppData%\Packages\MiniclipSA.GravityGuy_*\AC\INetCookies|*.*|RECURSE
 FileKey5=%LocalAppData%\Packages\MiniclipSA.GravityGuy_*\AC\INetHistory|*.*|RECURSE
-
-[Green Ranch Log*]
-Section=Games
-Detect=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Green RanchFINAL
-Default=False
-FileKey1=%AppData%\Palaplay\GreenRanch_Survey|*.txt
 
 [Greenfish Icon Editor Pro (MRU)*]
 LangSecRef=3021
@@ -7686,12 +6427,6 @@ Default=False
 RegKey1=HKCU\Software\GridinSoft\Notepad3\Files
 RegKey2=HKCU\Software\GridinSoft\Notepad3\Search|ReplaceTextHistory
 RegKey3=HKCU\Software\GridinSoft\Notepad3\Search|TextHistory
-
-[Grim Tales The Wishes CE Log*]
-Section=Games
-DetectFile=%AppData%\Elephant Games\Grim Tales The Wishes CE
-Default=False
-FileKey1=%AppData%\Elephant Games\Grim Tales The Wishes CE|logfile.txt
 
 [GroupWise Messenger*]
 LangSecRef=3021
@@ -7736,13 +6471,6 @@ Default=False
 FileKey1=%ProgramFiles%\GT Interactive\Driver|debug.log
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\GT Interactive\Driver|debug.log
 
-[Guild Wars*]
-Section=Games
-DetectFile=%ProgramFiles%\Guild Wars
-Default=False
-FileKey1=%ProgramFiles%\Guild Wars|*.tmp
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Guild Wars|*.tmp
-
 [Halite Logs and Backups*]
 LangSecRef=3021
 DetectFile1=%LocalAppData%\Halite\
@@ -7785,20 +6513,6 @@ LangSecRef=3024
 Detect=HKCU\Software\Novosoft\Handy Backup
 Default=False
 FileKey1=%AppData%\Novosoft\Handy Backup\logs|*.*
-
-[HappyCloud Cache*]
-Section=Games
-Detect=HKCU\Software\HappyCloud
-Default=False
-FileKey1=%CommonAppData%\HappyCloud\cache|*.*
-FileKey2=%LocalAppData%\VirtualStore\ProgramData\HappyCloud\cache|*.*
-
-[HappyCloud Logs*]
-Section=Games
-Detect=HKCU\Software\HappyCloud
-Default=False
-FileKey1=%CommonAppData%\HappyCloud|*.log
-FileKey2=%LocalAppData%\VirtualStore\ProgramData\HappyCloud|*.log
 
 [Hard Drive Inspector Error Log*]
 LangSecRef=3024
@@ -7843,37 +6557,12 @@ Detect3=HKCU\Software\Intermedia Software\Helium 10
 Default=False
 FileKey1=%AppData%\Intermedia Software\Helium *\Logs|*.*
 
-[Heroes of a Broken Land*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\314470
-Default=False
-FileKey1=%ProgramFiles%\Steam\SteamApps\Common\Heroes of a Broken Land\hobl_data|output_log.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamApps\Common\Heroes of a Broken Land\hobl_data|output_log.txt
-
-[Heroes of Newerth Log*]
-Section=Games
-Detect=HKCU\Software\Heroes of Newerth
-Default=False
-FileKey1=%Documents%\Heroes of Newerth\game|console.log
-
 [Hex Chat Logs*]
 LangSecRef=3024
 DetectFile=%AppData%\HexChat
 Default=False
 FileKey1=%AppData%\HexChat\logs|*.*|REMOVESELF
 FileKey2=%AppData%\HexChat\scrollback|*.*|REMOVESELF
-
-[Hi-Rez Studios*]
-Section=Games
-Detect=HKLM\Software\Hi-Rez Studios
-Default=False
-FileKey1=%CommonAppData%\Hi-Rez Studios\BrowserCacheTribes\Default|*.*|RECURSE
-FileKey2=%CommonAppData%\Hi-Rez Studios\HiPatchService\log|*.*
-FileKey3=%ProgramFiles%\Hi-Rez Studios\hireztemp|*.*
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\Hi-Rez Studios\hireztemp|*.*
-FileKey5=%LocalAppData%\VirtualStore\ProgramData\Hi-Rez Studios\BrowserCacheTribes\Default|*.*|RECURSE
-FileKey6=%LocalAppData%\VirtualStore\ProgramData\Hi-Rez Studios\HiPatchService\log|*.*
-FileKey7=%RootDir%|HiRezUpdateInstallLog.txt
 
 [HijackThis (Backups)*]
 LangSecRef=3024
@@ -7904,28 +6593,12 @@ FileKey6=%LocalAppData%\VirtualStore\Program Files*\Hitman Pro*\updates|*.*
 FileKey7=%CommonAppData%\HitmanPro\Logs|*.*
 FileKey8=%LocalAppData%\VirtualStore\ProgramData\HitmanPro\Logs|*.*
 
-[Holiday Express*]
-Section=Games
-Detect1=HKLM\Software\HipSoft\Holiday Express
-Detect2=HKLM\Software\GameHouse\Holiday Express
-Default=False
-FileKey1=%ProgramFiles%\GameHouse Games Collection\Holiday Express|*.txt
-FileKey2=%ProgramFiles%\Holiday Express|*html;*.txt
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\GameHouse Games Collection\Holiday Express|*.txt
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\Holiday Express|*html;*.txt
-
 [HomeCinema Cyberlink*]
 LangSecRef=3024
 DetectFile=%ProgramFiles%\HomeCinema
 Default=False
 FileKey1=%ProgramFiles%\HomeCinema\PowerProducer\Template\Cyberlink\frame|*tmp
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\HomeCinema\PowerProducer\Template\Cyberlink\frame|*tmp
-
-[Hostile Makeover*]
-Section=Games
-DetectFile=%AppData%\Merscom\Hostile Makeover
-Default=False
-FileKey1=%AppData%\Merscom\Hostile Makeover|logfile.txt
 
 [HostsMan's HostsServer (Log)*]
 LangSecRef=3024
@@ -7955,12 +6628,6 @@ FileKey2=%ProgramFiles%\Hotbar\*\static|*.*
 FileKey3=%LocalAppData%\VirtualStore\Program Files*\Hotbar\*\dynamic|*.*|RECURSE
 FileKey4=%LocalAppData%\VirtualStore\Program Files*\Hotbar\*\static|*.*
 RegKey1=HKCU\Software\Hotbar\hotbar\ImagesHistory
-
-[Hotline Miami*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\219150
-Default=False
-FileKey1=%Documents%\My Games\HotlineMiami|debug.log
 
 [Hotspot Shield*]
 LangSecRef=3021
@@ -8204,12 +6871,6 @@ FileKey6=%LocalAppData%\Packages\HuluLLC.HuluPlus_*\AC\Microsoft\CryptnetUrlCach
 FileKey7=%LocalAppData%\Packages\HuluLLC.HuluPlus_*\TempState|*.*|RECURSE
 FileKey8=%LocalAppData%\Packages\HuluLLC.HuluPlus_*\LocalState|*.tmp|RECURSE
 ExcludeKey1=FILE|%LocalAppData%\Packages\HuluLLC.HuluPlus_*\AC\INetCache\|container.dat
-
-[Huru Beach Party*]
-Section=Games
-DetectFile=%AppData%\HuruBeachParty
-Default=False
-FileKey1=%AppData%\HuruBeachParty|*log.html
 
 [HxD Hexeditor*]
 LangSecRef=3021
@@ -8711,13 +7372,6 @@ Default=False
 FileKey1=%ProgramFiles%\Inter-Tel|*.log|RECURSE
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\Inter-Tel|*.log|RECURSE
 
-[InterAction studios CI2rmdemo*]
-Section=Games
-DetectFile=%CommonAppData%\InterAction studios\CI2rmdemo
-Default=False
-FileKey1=%CommonAppData%\InterAction studios\CI2rmdemo|*.log|RECURSE
-FileKey2=%LocalAppData%\VirtualStore\ProgramData\InterAction studios\CI2rmdemo|*.log|RECURSE
-
 [Internet Business Promoter*]
 LangSecRef=3022
 DetectFile=%AppData%\IBP
@@ -9195,14 +7849,6 @@ Default=False
 FileKey1=%ProgramFiles%\Jabbear|*.log|RECURSE
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\Jabbear|*.log|RECURSE
 
-[Jagex Cache*]
-Section=Games
-DetectFile=%UserProfile%\jagexcache
-Default=False
-FileKey1=%UserProfile%\jagex*|*.*|RECURSE
-FileKey2=%WinDir%\.jagex*|*.*|REMOVESELF
-ExcludeKey1=PATH|%UserProfile%\jagexcache\jagexlauncher
-
 [JAJC Avatars*]
 LangSecRef=3022
 DetectFile=%UserProfile%\JAJC
@@ -9450,12 +8096,6 @@ Detect=HKCU\Software\join.me
 Default=False
 FileKey1=%LocalAppData%\join.me|*.log
 
-[Jojos Fashion Show*]
-Section=Games
-DetectFile=%AppData%\Gamelab\Jojos Fashion Show
-Default=False
-FileKey1=%AppData%\Gamelab\Jojos Fashion Show|log.txt
-
 [Juniper Networks*]
 LangSecRef=3021
 Detect1=HKCU\Software\Juniper Networks
@@ -9562,12 +8202,6 @@ LangSecRef=3022
 DetectFile=%LocalAppData%\Kakao\KakaoTalk
 Default=False
 FileKey1=%LocalAppData%\Kakao\KakaoTalk\Dump|*.*|RECURSE
-
-[Kalypso Launcher*]
-Section=Games
-DetectFile=%AppData%\Kalypso Media\Launcher
-Default=False
-FileKey1=%AppData%\Kalypso Media\Launcher|log_appdata.txt
 
 [Kaspersky*]
 LangSecRef=3024
@@ -9740,27 +8374,11 @@ Default=False
 FileKey1=%AppData%\Launchy\controly-icon-cache|*.*
 FileKey2=%AppData%\Launchy\weby-icon-cache|*.*
 
-[Lavender's Botanicals*]
-Section=Games
-DetectFile=%AppData%\MysteryStudio\Lavender
-Default=False
-FileKey1=%AppData%\MysteryStudio\Lavender|*.log
-
 [Lazarus Saved Forms*]
 LangSecRef=3026
 SpecialDetect=DET_MOZILLA
 Default=False
 FileKey1=%AppData%\Mozilla\Firefox\Profiles\*|lazarus.sqlite;lazarus-backup.sqlite
-
-[League of Legends*]
-Section=Games
-Detect1=HKCU\Software\Bugsplat\lol_beta_riotgames_com
-Detect2=HKCU\Software\Riot Games
-Detect3=HKLM\Software\Wow6432Node\Riot Games
-Default=False
-FileKey1=%AppData%\LolClient*|*.*|RECURSE
-FileKey2=%SystemDrive%\Riot Games\League of Legends|*.log*;*.tmp;*.pandurl;Localization_Errors.txt;*r3dlog.txt;*netlog.txt|RECURSE
-FileKey3=%UserProfile%\riotsGamesLogs|*.*
 
 [Leapfrog Connect Cache*]
 LangSecRef=3021
@@ -9798,12 +8416,6 @@ LangSecRef=3023
 DetectFile=%AppData%\Leawo\Video Converter
 Default=False
 FileKey1=%AppData%\Leawo\Video Converter|*.log
-
-[LEGO Universe*]
-Section=Games
-DetectFile=%LocalAppData%\LEGO Software\LEGO Universe
-Default=False
-FileKey1=%LocalAppData%\LEGO Software\LEGO Universe\Log Files|*.*
 
 [Lenovo SWTOOLS*]
 LangSecRef=3025
@@ -9918,12 +8530,6 @@ LangSecRef=3025
 DetectFile=%WinDir%\LiveKernelReports\WATCHDOG
 Default=False
 FileKey1=%WinDir%\LiveKernelReports\WATCHDOG|*.dmp
-
-[Loadout*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\208090
-Default=False
-FileKey1=%LocalAppData%\EdgeOfReality\Loudout\CrashReports|*.*
 
 [Local Storage*]
 LangSecRef=3029
@@ -10118,25 +8724,6 @@ ExcludeKey25=PATH|%LocalAppData%\Amigo\User Data\*\Local Extension Settings\|*.*
 ExcludeKey26=PATH|%LocalAppData%\Amigo\User Data\*\Local App Settings\|*.*
 ExcludeKey27=PATH|%LocalAppData%\Amigo\User Data\*\Extensions\|*.*
 
-[LoL Summonerinfo Logs*]
-Section=Games
-DetectFile=%ProgramFiles%\LSI\logs\
-Default=False
-FileKey1=%ProgramFiles%\LSI\logs|*.*
-
-[LoL Summonerinfo Replays*]
-Section=Games
-DetectFile=%ProgramFiles%\LSI\replays\
-Default=False
-FileKey1=%ProgramFiles%\LSI\replays|*.*
-Warning=This will delete all your saved replays.
-
-[LOLReplay*]
-Section=Games
-Detect=HKCU\Software\LOLReplay
-Default=False
-FileKey1=%Documents%\LOLReplay|*_log.txt;*.log;*.old|RECURSE
-
 [Lost Photos Logs*]
 LangSecRef=3022
 DetectFile=%ProgramFiles%\Lost Photos
@@ -10149,14 +8736,6 @@ LangSecRef=3022
 DetectFile=%ProgramFiles%\Lost Photos
 Default=False
 FileKey1=%LocalAppData%\Lost_Photos\*|ResultSearchFile.info
-
-[LotR Online Launcher Logs*]
-Section=Games
-DetectFile=%LocalAppData%\Turbine\The Lord of the Rings Online\Launcher
-Default=False
-FileKey1=%LocalAppData%\The Lord Of The Rings Online|*.log
-FileKey2=%LocalAppData%\Turbine|*.log
-FileKey3=%LocalAppData%\Turbine\The Lord of the Rings Online\Launcher|*.log
 
 [Lotus Notes Cache*]
 LangSecRef=3021
@@ -10282,13 +8861,6 @@ Detect=HKCU\Software\Macromedia\Shockwave 9
 Default=False
 RegKey1=HKCU\Software\Macromedia\Shockwave 9\movies
 
-[Magicka*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\42910
-Default=False
-FileKey1=%ProgramFiles%\Steam\steamapps\common\magicka|errorReport*.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\magicka|errorReport*.txt
-
 [MAGIX Backups*]
 LangSecRef=3023
 Detect=HKCU\Software\Magix
@@ -10381,13 +8953,6 @@ FileKey3=%CommonAppData%\Malwarebytes\Malwarebytes' Anti-Malware|mbam-setup.exe
 FileKey4=%LocalAppData%\VirtualStore\ProgramData\Malwarebytes\Malwarebytes*Anti-Malware\Logs|*.*
 FileKey5=%LocalAppData%\VirtualStore\ProgramData\Malwarebytes\Malwarebytes' Anti-Malware|mbam-setup.exe
 
-[ManiaPlanet Cache*]
-Section=Games
-DetectFile=%CommonAppData%\ManiaPlanet\
-Default=False
-FileKey1=%CommonAppData%\ManiaPlanet\Cache|*.*
-FileKey2=%LocalAppData%\VirtualStore\ProgramData\ManiaPlanet\Cache|*.*
-
 [ManyCam More*]
 LangSecRef=3023
 Detect=HKLM\Software\ManyCam
@@ -10400,13 +8965,6 @@ Detect=HKLM\Software\ManyCam
 Default=False
 FileKey1=%AppData%\ManyCam\Settings\MoviesThumbnails|*.*|RECURSE
 
-[Marine Sharpshooter 3*]
-Section=Games
-DetectFile=%ProgramFiles%\Groove Games\Marine Sharpshooter 3
-Default=False
-FileKey1=%ProgramFiles%\Groove Games\Marine Sharpshooter 3|*.dmp;*.mdmp|RECURSE
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Groove Games\Marine Sharpshooter 3|*.dmp;*.mdmp|RECURSE
-
 [Mass Downloader*]
 LangSecRef=3022
 DetectFile=%ProgramFiles%\Mass Downloader
@@ -10417,24 +8975,6 @@ FileKey3=%ProgramFiles%\Mass Downloader\Index|*.*|RECURSE
 FileKey4=%LocalAppData%\VirtualStore\Program Files*\Mass Downloader|*.bak|RECURSE
 FileKey5=%LocalAppData%\VirtualStore\Program Files*\Mass Downloader|massdown.dat;history.dat
 FileKey6=%LocalAppData%\VirtualStore\Program Files*\Mass Downloader\Index|*.*|RECURSE
-
-[Mass Effect 2*]
-Section=Games
-Detect=HKLM\Software\BioWare\Mass Effect 2
-Default=False
-FileKey1=%Documents%\BioWare\Mass Effect 2\BIOGame\Logs|*.*
-
-[Mass Effect 3*]
-Section=Games
-Detect=HKLM\Software\BioWare\Mass Effect 3
-Default=False
-FileKey1=%Documents%\BioWare\Mass Effect 3\BIOGame\Logs|*.*
-
-[Mass Effect*]
-Section=Games
-Detect=HKLM\Software\BioWare\Mass Effect
-Default=False
-FileKey1=%Documents%\BioWare\Mass Effect\Logs|*.*
 
 [MassTube*]
 LangSecRef=3024
@@ -10534,13 +9074,6 @@ FileKey7=%LocalAppData%\VirtualStore\ProgramData\McAfee\MPF\data|*.*|RECURSE
 FileKey8=%LocalAppData%\VirtualStore\ProgramData\McAfee\MSC\Logs|*.*|RECURSE
 FileKey9=%LocalAppData%\VirtualStore\ProgramData\McAfee\VirusScan\Data|*.log;*.old
 FileKey10=%LocalAppData%\VirtualStore\ProgramData\McAfee\VirusScan\Logs|*.*|RECURSE
-
-[McPixel*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\220860
-Default=False
-FileKey1=%ProgramFiles%\Steam\Steamapps\common\mcpixel|log.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\common\mcpixel|log.txt
 
 [Media Center 18 Backup*]
 LangSecRef=3023
@@ -10705,66 +9238,6 @@ RegKey13=HKCU\Software\JBSoftware\MemoMaster5|FileMRU13
 RegKey14=HKCU\Software\JBSoftware\MemoMaster5|FileMRU14
 RegKey15=HKCU\Software\JBSoftware\MemoMaster5|FileMRU15
 
-[Men of War (Cache)*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\7830
-Default=False
-FileKey1=%Documents%\My Games\men of war\shader_cache|*.*|RECURSE
-
-[Men of War (Log)*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\7830
-Default=False
-FileKey1=%Documents%\My Games\men of war\log|*.*
-
-[Men of War: Assault Squad (Cache)*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\64000
-Default=False
-FileKey1=%Documents%\My Games\Men of War - Assault Squad\shader_cache|*.*|RECURSE
-
-[Men of War: Assault Squad (Log)*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\64000
-Default=False
-FileKey1=%Documents%\My Games\Men of War - Assault Squad\Log|*.*
-
-[Men of War: Condemned Heroes (Cache)*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\204860
-Default=False
-FileKey1=%Documents%\My Games\mow condemned heroes\sharer_cache|*.*|RECURSE
-
-[Men of War: Condemned Heroes (Log)*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\204860
-Default=False
-FileKey1=%Documents%\My Games\mow condemned heroes\Log|*.*
-
-[Men of War: Red Tide (Cache)*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\3130
-Default=False
-FileKey1=%Documents%\My Games\mow red tide\shader_cache|*.*|RECURSE
-
-[Men of War: Red Tide (Log)*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\3130
-Default=False
-FileKey1=%Documents%\My Games\mow red tide\log|*.*
-
-[Men of War: Vietnam (Cache)*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\63940
-Default=False
-FileKey1=%Documents%\My Games\mow vietnam\shader_cache|*.*|RECURSE
-
-[Men of War: Vietnam (Log)*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\63940
-Default=False
-FileKey1=%Documents%\My Games\mow vietnam\log|*.*
-
 [Mention*]
 LangSecRef=3022
 Detect=HKCU\Software\Mention
@@ -10858,16 +9331,6 @@ Detect=HKCU\Software\Microsoft\Expression\Web Designer
 Default=False
 RegKey1=HKCU\Software\Microsoft\Expression\Web Designer\FindMRU
 
-[Microsoft Flight Simulator X*]
-Section=Games
-Detect=HKLM\Software\Microsoft\Microsoft Games\Flight Simulator\10.0
-Default=False
-FileKey1=%ProgramFiles%\Microsoft Games\Microsoft Flight Simulator X|*.log;*.rtf;*.html;*.URL
-FileKey2=%ProgramFiles%\Microsoft Games\Microsoft Flight Simulator X\Modules|*.log
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Microsoft Games\Microsoft Flight Simulator X|*.log;*.rtf;*.html;*.URL
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\Microsoft Games\Microsoft Flight Simulator X\Modules|*.log
-ExcludeKey1=FILE|%ProgramFiles%\Microsoft Games\Microsoft Flight Simulator X|*kiosk.rtf;*readme.rtf;*Readme.htm
-
 [Microsoft Message Analyzer*]
 LangSecRef=3024
 DetectFile=%LocalAppData%\Microsoft\MessageAnalyzer
@@ -10942,13 +9405,6 @@ Default=False
 FileKey1=%CommonAppData%\Microsoft\Microsoft Standalone System Sweeper Tool\Support|*.log
 FileKey2=%WinDir%\Windows Defender Offline\Support|*.txt
 FileKey3=%LocalAppData%\VirtualStore\ProgramData\Microsoft\Microsoft Standalone System Sweeper Tool\Support|*.log
-
-[Microsoft XNA Game Studio*]
-Section=Games
-Detect1=HKLM\Software\Wow6432Node\Microsoft\XNA
-Detect2=HKLM\Software\Microsoft\XNA
-Default=False
-FileKey1=%ProgramFiles%\Microsoft XNA\XNA Game Studio\*\Redist|*.*|REMOVESELF
 
 [Microsoft.NET Cache*]
 LangSecRef=3025
@@ -11025,23 +9481,6 @@ Default=False
 FileKey1=%ProgramFiles%\MiKTeX\miktex\config|*.log
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\MiKTeX\miktex\config|*.log
 
-[Minecraft Debug*]
-Section=Games
-DetectFile=%AppData%\.minecraft
-Default=False
-FileKey1=%AppData%\.minecraft\debug|*.*
-
-[Minecraft*]
-Section=Games
-DetectFile=%AppData%\.minecraft
-Default=False
-FileKey1=%AppData%\.minecraft|*.log;*.log.*
-FileKey2=%AppData%\.minecraft\crash-reports|*.*
-FileKey3=%AppData%\.minecraft\server|server.log
-FileKey4=%AppData%\.minecraft\stats|*.old
-FileKey5=%AppData%\.minecraft\logs|*.*
-FileKey6=%AppData%\java|*.*|REMOVESELF
-
 [Minidumps*]
 LangSecRef=3026
 SpecialDetect=DET_MOZILLA
@@ -11108,12 +9547,6 @@ FileKey3=%SystemDrive%|*.cpp.log
 FileKey4=%LocalAppData%\VirtualStore\Program Files*\SkanerOnline\Raporty|*.*
 FileKey5=%LocalAppData%\VirtualStore\Program Files*\SkanerOnline\tmp|*.*
 
-[MMOUI Minion Logs*]
-Section=Games
-DetectFile=%AppData%\MMOUI\Minion
-Default=False
-FileKey1=%AppData%\MMOUI\Minion|log.*
-
 [Mo-Search Last Position*]
 LangSecRef=3024
 Detect=HKCU\Software\Meauxsoft\Mo-Search
@@ -11140,12 +9573,6 @@ Default=False
 FileKey1=%AppData%\Deusty\Mojo\*|*.log
 FileKey2=%LocalAppData%\Deusty\Mojo|crash*.txt
 
-[MoreTerra*]
-Section=Games
-DetectFile=%AppData%\MoreTerra
-Default=False
-FileKey1=%AppData%\MoreTerra\Logs|*.*|RECURSE
-
 [Morpheus More*]
 LangSecRef=3023
 Detect=HKCU\Software\Morpheus
@@ -11168,28 +9595,6 @@ LangSecRef=3024
 DetectFile=%AppData%\Motorola\MotoHelper\installer.log
 Default=False
 FileKey1=%AppData%\Motorola\MotoHelper|*.log
-
-[Mount & Blade (All)*]
-Section=Games
-Detect1=HKLM\Software\Mount&Blade
-Detect2=HKLM\Software\Mount&Blade Warband
-Detect3=HKLM\Software\Mount&Blade With Fire and Sword
-Detect4=HKLM\Software\Mount&Blade: Warband - Napoleonic Wars
-Detect5=HKCU\Software\Valve\Steam\Apps\22100
-Detect6=HKCU\Software\Valve\Steam\Apps\48700
-Detect7=HKCU\Software\Valve\Steam\Apps\48705
-Detect8=HKCU\Software\Valve\Steam\Apps\48720
-Default=False
-FileKey1=%ProgramFiles%\Steam\steamapps|rgl_log.txt|RECURSE
-FileKey2=%ProgramFiles%\Mount&Blade|rgl_log.txt|RECURSE
-FileKey3=%ProgramFiles%\Mount&Blade Warband|rgl_log.txt|RECURSE
-FileKey4=%ProgramFiles%\Mount&Blade With Fire and Sword|rgl_log.txt|RECURSE
-FileKey5=%ProgramFiles%\Napoleonic Wars|rgl_log.txt|RECURSE
-FileKey6=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps|rgl_log.txt|RECURSE
-FileKey7=%LocalAppData%\VirtualStore\Program Files*\Mount&Blade|rgl_log.txt|RECURSE
-FileKey8=%LocalAppData%\VirtualStore\Program Files*\Mount&Blade Warband|rgl_log.txt|RECURSE
-FileKey9=%LocalAppData%\VirtualStore\Program Files*\Mount&Blade With Fire and Sword|rgl_log.txt|RECURSE
-FileKey10=%LocalAppData%\VirtualStore\Program Files*\Napoleonic Wars|rgl_log.txt|RECURSE
 
 [Mousotron*]
 LangSecRef=3021
@@ -12098,17 +10503,6 @@ Default=False
 FileKey1=%ProgramFiles%\MSI Afterburner|HardwareMonitoring.hml
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\MSI Afterburner|HardwareMonitoring.hml
 
-[MTA San Andreas 1.3 Logs*]
-Section=Games
-DetectFile=%ProgramFiles%\MTA San Andreas 1.3\Multi Theft Auto.exe
-Default=False
-FileKey1=%ProgramFiles%\MTA San Andreas 1.3\MTA\logs|*.*
-FileKey2=%ProgramFiles%\MTA San Andreas 1.3\server\mods\deathmatch\backups|*.*
-FileKey3=%ProgramFiles%\MTA San Andreas 1.3\server\mods\deathmatch\logs|*.*
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\MTA San Andreas 1.3\MTA\logs|*.*
-FileKey5=%LocalAppData%\VirtualStore\Program Files*\MTA San Andreas 1.3\server\mods\deathmatch\backups|*.*
-FileKey6=%LocalAppData%\VirtualStore\Program Files*\MTA San Andreas 1.3\server\mods\deathmatch\logs|*.*
-
 [MUICache*]
 DetectOS=6.1|
 LangSecRef=3025
@@ -12180,12 +10574,6 @@ LangSecRef=3022
 Detect=HKCU\Software\Mumble
 Default=False
 FileKey1=%AppData%\Mumble|console.txt
-
-[Murder, She Wrote*]
-Section=Games
-DetectFile=%AppData%\MysteryStudio\MSW
-Default=False
-FileKey1=%AppData%\MysteryStudio\MFW|*.log
 
 [MuseScore*]
 LangSecRef=3023
@@ -12266,21 +10654,6 @@ Default=False
 FileKey1=%LocalAppData%\My Family Tree\MapCache|*.*|RECURSE
 FileKey2=%LocalAppData%\My Family Tree\Temp|*.*|RECURSE
 
-[My Horse and Me*]
-Section=Games
-Detect1=HKLM\Software\My Horse and Me 2
-Detect2=HKLM\SOFTWARE\Atari\Mein Pferd und ich Demo
-Detect3=HKLM\SOFTWARE\Wow6432Node\Atari\Mein Pferd und ich Demo
-Detect4=HKLM\SOFTWARE\Atari\Mein Pferd und ich
-Detect5=HKLM\SOFTWARE\Wow6432Node\Atari\Mein Pferd und ich
-Default=False
-FileKey1=%ProgramFiles%\Atari\W!Games\My Horse and Me|++ Finish log.txt;++ Start log.txt;*.log|RECURSE
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Atari\W!Games\My Horse and Me|++ Finish log.txt;++ Start log.txt;*.log|RECURSE
-FileKey3=%ProgramFiles%\Atari\My Horse and Me|++ Finish log.txt;++ Start log.txt;*.log|RECURSE
-FileKey4=%LocalAppData%\VirtualStore\Atari\My Horse and Me|++ Finish log.txt;++ Start log.txt;*.log|RECURSE
-FileKey5=%ProgramFiles%\Atari\Mein Pferd und ich*\System|++ Finish log.txt;++ Start log.txt;*.log|RECURSE
-FileKey6=%LocalAppData%\VirtualStore\Atari\Mein Pferd und ich*\System|++ Finish log.txt;++ Start log.txt;*.log|RECURSE
-
 [My Movies Collection Log*]
 LangSecRef=3023
 DetectFile=%CommonAppData%\My Movies
@@ -12302,32 +10675,6 @@ FileKey1=%CommonAppData%\My Movies\File Storage\Temp|*.*|RECURSE
 FileKey2=%CommonAppData%\My Movies\Temp|*.*|RECURSE
 FileKey3=%LocalAppData%\VirtualStore\ProgramData\My Movies\File Storage\Temp|*.*|RECURSE
 FileKey4=%LocalAppData%\VirtualStore\ProgramData\My Movies\Temp|*.*|RECURSE
-
-[My Riding Stables*]
-Section=Games
-Detect=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\MyRidingStables
-Default=False
-FileKey1=%ProgramFiles%\My Riding Stables*|*.txt;*.url
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\My Riding Stables*|*.txt;*.url
-
-[My Singing Monsters*]
-Section=Games
-Detect1=HKLM\Software\Big Fish Games\Persistence\Install\F7664T1L1
-Detect2=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\My Singing Monsters1.1
-DetectFile=%ProgramFiles%\My Singing Monsters
-Default=False
-FileKey1=%ProgramFiles%\My Singing Monsters|dotnetfx35setup.exe;vcredist_x86.exe
-FileKey2=%ProgramFiles%\My Singing Monsters|*.log;*.txt|RECURSE
-FileKey3=%ProgramFiles%\*\My Singing Monsters|dotnetfx35setup.exe;*.html;*.PNG;vcredist_x86.exe
-FileKey4=%ProgramFiles%\*\My Singing Monsters|*.log;*.txt|RECURSE
-FileKey5=%LocalAppData%\VirtualStore\Program Files*\My Singing Monsters|*.log;*.txt|RECURSE
-FileKey6=%LocalAppData%\VirtualStore\Program Files*\*\My Singing Monsters|*.log;*.txt|RECURSE
-
-[MyCraft*]
-Section=Games
-DetectFile=%UserProfile%\Desktop\MyCraft
-Default=False
-FileKey1=%UserProfile%\Desktop\MyCraft|MyCraft Log.*
 
 [MyDefrag Logs*]
 LangSecRef=3021
@@ -12388,30 +10735,6 @@ FileKey1=%CommonAppData%\McAfee\Common Framework\AgentEvents|*.*
 FileKey2=%CommonAppData%\Network Associates\Common Framework\AgentEvents|*.*
 FileKey3=%LocalAppData%\VirtualStore\ProgramData\McAfee\Common Framework\AgentEvents|*.*
 FileKey4=%LocalAppData%\VirtualStore\ProgramData\Network Associates\Common Framework\AgentEvents|*.*
-
-[Nancy Drew - Secret of Shadow Ranch*]
-Section=Games
-Detect1=HKLM\Software\Big Fish Games\Persistence\Install\F7041T1L1
-Detect2=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Nancy Drew - Secret of Shadow Ranch - Plus Guide1.0
-DetectFile=%ProgramFiles%\Nancy Drew*
-Default=False
-FileKey1=%ProgramFiles%\Nancy Drew*|dxwebsetup.exe;*.html
-FileKey2=%ProgramFiles%\*\Nancy Drew*|dxwebsetup.exe;*.html
-
-[Natural Selection 2 Cache*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\4920
-DetectFile=%ProgramFiles%\Steam\steamapps\common\Natural Selection 2
-Default=False
-Warning=Fixes corrupt cache & cleans cache bloat. The first game & map launch will take longer to load.
-FileKey1=%AppData%\Natural Selection 2\cache|*.*|RECURSE
-
-[Natural Selection 2 Log*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\4920
-DetectFile=%ProgramFiles%\Steam\steamapps\common\Natural Selection 2
-Default=False
-FileKey1=%AppData%\Natural Selection 2|log.txt
 
 [NBC News*]
 LangSecRef=3031
@@ -12721,12 +11044,6 @@ DetectFile=%Documents%\Nexus Mod Manager
 Default=False
 FileKey1=%Documents%\Nexus Mod Manager|TraceLog*.txt
 
-[Nidhogg*]
-Section=Games
-DetectFile=%AppData%\Nidhogg
-Default=False
-FileKey1=%AppData%\Nidhogg|*.log
-
 [Nightly Backups*]
 LangSecRef=3026
 DetectFile1=%ProgramFiles%\Nightly
@@ -12767,12 +11084,6 @@ Detect=HKCU\Software\Nitro PDF\Reader
 Default=False
 RegKey1=HKCU\Software\Nitro PDF\Reader\1.0\Recent File List
 RegKey2=HKCU\Software\Nitro PDF\Reader\2.0\Recent File List
-
-[Nitrous Backups*]
-Section=Games
-DetectFile=%AppData%\.nitrous
-Default=False
-FileKey1=%AppData%\.nitrous\backups|*.*|REMOVESELF
 
 [nLite*]
 LangSecRef=3024
@@ -13780,12 +12091,6 @@ Detect3=HKCU\Software\PKWARE\PKZIP70
 Default=False
 FileKey1=%ProgramFiles%\PKWARE\PKZIPW|*.log
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\PKWARE\PKZIPW|*.log
-
-[PlayFirst Games*]
-Section=Games
-DetectFile=%AppData%\PlayFirst
-Default=False
-FileKey1=%AppData%\PlayFirst|logfile.txt|RECURSE
 
 [Pointstone Total Privacy*]
 LangSecRef=3024
@@ -15124,27 +13429,6 @@ FileKey3=%LocalAppData%\Packages\GAMELOFTSA.SharkDashByGameloft_*\AC\INetCache|*
 FileKey4=%LocalAppData%\Packages\GAMELOFTSA.SharkDashByGameloft_*\AC\INetCookies|*.*|RECURSE
 FileKey5=%LocalAppData%\Packages\GAMELOFTSA.SharkDashByGameloft_*\AC\INetHistory|*.*|RECURSE
 
-[Shatter*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\20820
-Default=False
-FileKey1=%ProgramFiles%\Steam\steamapps\common\Shatter|log.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\Shatter|log.txt
-
-[Shattered Horizon Cache*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\18110
-DetectFile=%LocalAppData%\Futuremark\Shattered Horizon
-Default=False
-FileKey1=%LocalAppData%\Futuremark\Shattered Horizon\cache|*.*|REMOVESELF
-
-[Shattered Horizon Crash files*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\18110
-DetectFile=%LocalAppData%\Futuremark\Shattered Horizon
-Default=False
-FileKey1=%LocalAppData%\Futuremark\Shattered Horizon\crash_dumps|*.*
-
 [ShellBags*]
 DetectOS=6.1|
 LangSecRef=3025
@@ -15203,13 +13487,6 @@ DetectFile=%ProgramFiles%\UpdateStar\SigParser\SigParser.exe
 Default=False
 FileKey1=%AppData%\UpdateStar GmbH\SigParser\3.0.4898.22300|*.log
 
-[SimCity Societies*]
-Section=Games
-Detect1=HKLM\Software\Electronic Arts\SimCity Societies
-Detect2=HKLM\Software\Electronic Arts\SimCity Societies (tm) Destinations
-Default=False
-FileKey1=%Documents%\SimCity Societies\Logs|*.*
-
 [Similarity Cache*]
 LangSecRef=3023
 DetectFile=%AppData%\Similarity
@@ -15221,18 +13498,6 @@ LangSecRef=3023
 DetectFile=%AppData%\Similarity
 Default=False
 FileKey1=%AppData%\Similarity\logs|*.*|RECURSE
-
-[SIMS RACER Logs*]
-Section=Games
-DetectFile1=%CommonAppData%\SIMS\RACER
-DetectFile2=%ProgramFiles%\SIMS\RACER
-DetectFile3=%SystemDrive%\SIMS\RACER
-Default=False
-FileKey1=%CommonAppData%\SIMS\RACER|QLOG.txt
-FileKey2=%ProgramFiles%\SIMS\RACER|QLOG.txt
-FileKey3=%SystemDrive%\SIMS\RACER|QLOG.txt
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\SIMS\RACER|QLOG.txt
-FileKey5=%LocalAppData%\VirtualStore\ProgramData\SIMS\RACER|QLOG.txt
 
 [SiSense Logs*]
 LangSecRef=3021
@@ -15252,12 +13517,6 @@ FileKey1=%AppData%\SketchUp\SketchUp *\SketchUp|~*.tmp
 RegKey1=HKCU\Software\SketchUp\SketchUp 2013\Recent File List
 RegKey2=HKCU\Software\SketchUp\SketchUp 2014\Recent File List
 RegKey3=HKCU\Software\SketchUp\SketchUp 2015\Recent File List
-
-[SKSE*]
-Section=Games
-DetectFile=%Documents%\My Games\Skyrim\SKSE
-Default=False
-FileKey1=%Documents%\My Games\Skyrim\SKSE|*.log
 
 [SkyDrive App*]
 LangSecRef=3031
@@ -15348,13 +13607,6 @@ LangSecRef=3022
 Detect=HKCU\Software\Skype
 Default=False
 FileKey1=%AppData%\SkypePM|*.ezlog
-
-[Sleeping Dogs*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\202170
-Default=False
-FileKey1=%ProgramFiles%\Steam\Steamapps\common\SleepingDogs|LogBoot.txt;LogShaders.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\common\SleepingDogs|LogBoot.txt;LogShaders.txt
 
 [SlimBoat*]
 LangSecRef=3022
@@ -15579,20 +13831,6 @@ LangSecRef=3023
 DetectFile=%AppData%\PictureMover
 Default=False
 FileKey1=%AppData%\PictureMover\Log|*.*
-
-[Sniper Art of Victory*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\271500
-Default=False
-FileKey1=%ProgramFiles%\Steam\SteamApps\Common\Sniper Art of Victory\logs|*.*
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamApps\Common\Sniper Art of Victory\logs|*.*
-
-[Snuggle Truck*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\111100
-Default=False
-FileKey1=%ProgramFiles%\Steam\steamapps\common\snuggle truck\Snuggle Truck_Data|output_log.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\snuggle truck\Snuggle Truck_Data|output_log.txt
 
 [Sobees Cache*]
 LangSecRef=3022
@@ -15838,12 +14076,6 @@ Default=False
 FileKey1=%ProgramFiles%\Analog Devices\SoundMAX|SMax.log;SMax.log.bak
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\Analog Devices\SoundMAX|SMax.log;SMax.log.bak
 
-[SpaceEngineers*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\244850
-Default=False
-FileKey1=%AppData%\SpaceEngineers|*.log
-
 [SpamFighter Logs*]
 LangSecRef=3022
 Detect=HKCU\Software\Fighters\SFPRO
@@ -15875,38 +14107,6 @@ DetectFile=%AppData%\SpiderOak
 Default=False
 FileKey1=%AppData%\SpiderOak|*.log|RECURSE
 
-[Spiral Knights*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\99900
-Default=False
-FileKey1=%ProgramFiles%\Steam\SteamApps\common\Spiral Knights|*.log
-
-[Splice*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\209790
-Default=False
-FileKey1=%Documents%|GALog.txt
-FileKey2=%ProgramFiles%\Steam\steamapps\common\splice|output_log.txt
-FileKey3=%ProgramFiles%\Steam\steamapps\common\Splice\Splice_Data|output_log.txt
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\splice|output_log.txt
-FileKey5=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\Splice\Splice_Data|output_log.txt
-
-[SpongeBob Diner Dash*]
-Section=Games
-DetectFile=%ProgramFiles%\SpongeBob Diner Dash
-Default=False
-FileKey1=%ProgramFiles%\SpongeBob Diner Dash|logfile.*
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\SpongeBob Diner Dash|logfile.*
-
-[Spooky Mall Logs*]
-Section=Games
-Detect1=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\Spooky Mall1.0
-Default=False
-FileKey1=%CommonAppData%\SpookyMall|*.xml_log
-FileKey2=%ProgramFiles%\Foxy Games\Spooky Mall|*.log
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Foxy Games\Spooky Mall|*.log
-FileKey4=%LocalAppData%\VirtualStore\ProgramData\SpookyMall|*.xml_log
-
 [SporTV*]
 LangSecRef=3021
 DetectFile=%LocalAppData%\SporTV
@@ -15926,13 +14126,6 @@ DetectFile=%LocalAppData%\Spotify
 Default=False
 FileKey1=%LocalAppData%\Spotify\Storage|*.*|RECURSE
 FileKey2=%LocalAppData%\Spotify\Browser|*.*|RECURSE
-
-[Spoutcraft*]
-Section=Games
-DetectFile=%AppData%\.spoutcraft
-Default=False
-FileKey1=%AppData%\.spoutcraft\logs|*.*
-FileKey2=%AppData%\.spoutcraft|*.log
 
 [Sprint Hero RUU Installer Log*]
 LangSecRef=3023
@@ -16065,12 +14258,6 @@ FileKey2=%ProgramFiles%\Star Downloader\Partial Downloads|*.*|RECURSE
 FileKey3=%LocalAppData%\VirtualStore\Program Files*\Star Downloader|serverstats.txt;LastURLs
 FileKey4=%LocalAppData%\VirtualStore\Program Files*\Star Downloader\Partial Downloads|*.*|RECURSE
 
-[Star Swarm Stress Test*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\267130
-Default=False
-FileKey1=%Documents%\Star Swarm|output*.txt
-
 [Stardock Fences*]
 LangSecRef=3024
 Detect=HKLM\Software\Stardock\Misc\Fences
@@ -16157,97 +14344,6 @@ DetectFile=%LocalAppData%\Abelssoft\StartupStar
 Default=False
 FileKey1=%AppData%\AbelsSoft\StartupStar|*.log
 
-[Steam Big Picture Cache*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam
-Default=False
-FileKey1=%ProgramFiles%\Steam\tenfoot\config\httpcache|*.*|RECURSE
-FileKey2=%ProgramFiles%\Steam\tenfoot\config\images\web|*.*|RECURSE
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Steam\tenfoot\config\httpcache|*.*|RECURSE
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\Steam\tenfoot\config\images\web|*.*|RECURSE
-
-[Steam Browser Cache*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam
-Default=False
-Warning=This will also delete the thumbnails and custom background images of the games in your Library.
-FileKey1=%ProgramFiles%\Steam\appcache\httpcache|*.*|RECURSE
-FileKey2=%ProgramFiles%\Steam\config\cookies|*.*|RECURSE
-FileKey3=%ProgramFiles%\Steam\config\htmlcache|*.*|RECURSE
-FileKey4=%ProgramFiles%\Steam\config\overlaycookies|*.*|RECURSE
-FileKey5=%ProgramFiles%\Steam\config\overlayhtmlcache|*.*|RECURSE
-FileKey6=%ProgramFiles%\Steam\userdata\*\ugcmsgcache|*.*|RECURSE
-FileKey7=%LocalAppData%\VirtualStore\Program Files*\Steam\appcache\httpcache|*.*|RECURSE
-FileKey8=%LocalAppData%\VirtualStore\Program Files*\Steam\config\cookies|*.*|RECURSE
-FileKey9=%LocalAppData%\VirtualStore\Program Files*\Steam\config\htmlcache|*.*|RECURSE
-FileKey10=%LocalAppData%\VirtualStore\Program Files*\Steam\config\overlaycookies|*.*|RECURSE
-FileKey11=%LocalAppData%\VirtualStore\Program Files*\Steam\config\overlayhtmlcache|*.*|RECURSE
-
-[Steam DepotCache*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam
-Default=False
-FileKey1=%ProgramFiles%\Steam\depotcache|*.*
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\depotcache|*.*
-
-[Steam Games*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam
-Default=False
-FileKey1=%ProgramFiles%\Steam\steamapps|*.mdmp;*.tmp;*.dmp;*.icns;.DS_Store;logfile.*;*.log;text.txt;output_log.txt;*log.txt;log*.txt|RECURSE
-FileKey2=%ProgramFiles%\Steam\steamapps\common\*\Cache|*.*|RECURSE
-FileKey3=%ProgramFiles%\Steam\steamapps\common\*\config\html|*.*|RECURSE
-FileKey4=%ProgramFiles%\Steam\steamapps\common\*\DebugData|*.*|RECURSE
-FileKey5=%ProgramFiles%\Steam\steamapps\common\*\docs|*.*|RECURSE
-FileKey6=%ProgramFiles%\Steam\steamapps\common\*\*\downloads|*.*|RECURSE
-FileKey7=%ProgramFiles%\Steam\steamapps\common\*\EULA|*.*|RECURSE
-FileKey8=%ProgramFiles%\Steam\steamapps\common\*\Manual|*.*|RECURSE
-FileKey9=%ProgramFiles%\Steam\Steamapps\temp|*.*|RECURSE
-
-[Steam Installers*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam
-Warning=Run this entry AFTER you have launched all of your steam games once, as they will not be able to load for the first time. After the first launch, these files become useless.
-Default=False
-FileKey1=%ProgramFiles%\Steam\Steamapps\common|*redist.msi*;dosbox*.tar.gz;*redist*.exe;*setup*.msi;*pbsvc*.exe;*UPlay*Installer*.exe;WMFADist.exe;SPInstaller.exe;python*.msi;bitmap2substance_installer.exe;perforce*.exe;p4vinst*.exe;mcpp*.*;firewallinstallhelper.dll;gameuxinstallhelper.dll;eadm-installer.exe;wmpappcompat.exe;umdf.exe;Microsoft .NET Framework*.cmd;Microsoft .NET Framework*.bat;NDP*.exe;WMFDist*.exe;PhysX*.msi;PhysX*.exe;*d3dx11*.cat;*d3dx11*.inf;prompt.bat;GDFInstall.exe;DSInstaller.exe;d3d*.exe;directx*.exe;*.msu;Windows*-KB*.exe;cmp.bat;PVRTexTool.exe;wmp11-windowsxp-x86-enu.exe;*.vdk;RGB9RAST*.msi;WIC*.exe;XPSEPC*.exe;msxml6.msi;AdbeRdr*.*;*inst*.vdf;*.cab;*.msp;ac3filter*.exe;GamesExplorerIntegrationTool.exe;install.ini;globdata.ini;install.exe;install.res.*.dll;eula.*.*;DSETUP.DLL;oalinst.exe;dsetup32.dll;D3D*Install.exe;D3D*Install*.dll;dotnetfx*.exe;*vc*red*.exe;*vc*red.msi;WindowsInstaller*.exe;locdata.*.ini;setupres.*.dll;*setup*.exe;wapres.*.dll;*NetFx*.*|RECURSE
-
-[Steam Logs*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam
-Default=False
-FileKey1=%ProgramFiles%\Steam|*.log;*log.last;connection_log_*.txt;*_log.txt;remote_connections.txt;vr*_*.txt|RECURSE
-FileKey2=%ProgramFiles%\Steam|Steam.log;.crash
-FileKey3=%ProgramFiles%\Steam\SteamLogs|*.log
-FileKey4=%ProgramFiles%\Steam\vr\runtime\logs|*.*|RECURSE
-FileKey5=%AppData%\SteamVR\Logs|*.*|REMOVESELF
-FileKey6=%LocalAppData%\VirtualStore\Program Files*\Steam|*.log;*log.last;connection_log_*.txt;*_log.txt;remote_connections.txt;vr*_*.txt|RECURSE
-FileKey7=%LocalAppData%\VirtualStore\Program Files*\Steam|Steam.log
-FileKey8=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamLogs|*.log
-
-[Steam Old Files*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam
-Default=False
-FileKey1=%ProgramFiles%\Steam|*.old
-
-[Steam Packages*]
-Warning=Running this entry is not recommended if you run Steam Client Beta.
-Section=Games
-Detect=HKCU\Software\Valve\Steam
-Default=False
-FileKey1=%ProgramFiles%\Steam\package|*.zip.*
-ExcludeKey1=FILE|%ProgramFiles%\Steam\package\steam_client_win32.manifest
-ExcludeKey2=FILE|%ProgramFiles%\Steam\package\steam_client_win32.installed
-ExcludeKey3=FILE|%ProgramFiles%\Steam\package\steam_client_publicbeta_win32.installed
-ExcludeKey4=FILE|%ProgramFiles%\Steam\package\steam_client_publicbeta_win32.manifest
-
-[SteamWorld Dig*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\252410
-Default=False
-FileKey1=%ProgramFiles%\Steam\Steamapps\common\SteamWorld Dig|*.mdmp
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\common\SteamWorld Dig|*.mdmp
-
 [Steed*]
 LangSecRef=3022
 DetectFile=%CommonAppData%\Steed
@@ -16266,18 +14362,6 @@ LangSecRef=3021
 DetectFile=%AppData%\Stellarium
 Default=False
 FileKey1=%AppData%\Stellarium|log.txt
-
-[StepMania 4 Logs*]
-Section=Games
-DetectFile=%AppData%\StepMania 4
-Default=False
-FileKey1=%AppData%\Stepmania 4\Logs|*.*
-
-[StepMania Logs*]
-Section=Games
-DetectFile=%AppData%\StepMania
-Default=False
-FileKey1=%AppData%\Stepmania\Logs|*.*
 
 [Sticky Notes Cache*]
 LangSecRef=3021
@@ -16345,18 +14429,6 @@ Detect=HKCU\Software\Trolltech
 Default=False
 RegKey1=HKCU\Software\Trolltech\OrganizationDefaults
 
-[Stranglehold Cache*]
-Section=Games
-DetectFile=%LocalAppData%\Midway\Stranglehold
-Default=False
-FileKey1=%LocalAppData%\Midway\Stranglehold\Cache|*.*|REMOVESELF
-
-[Stranglehold Logs*]
-Section=Games
-DetectFile=%LocalAppData%\Midway\Stranglehold
-Default=False
-FileKey1=%LocalAppData%\Midway\Stranglehold|*.log|RECURSE
-
 [Stream-Cloner*]
 LangSecRef=3023
 Detect=HKCU\Software\Stream-Cloner
@@ -16370,13 +14442,6 @@ LangSecRef=3023
 Detect=HKCU\Software\Streamripper
 Default=False
 FileKey1=%AppData%\Streamripper|*.*|REMOVESELF
-
-[Stronghold Crusader Logs*]
-Section=Games
-DetectFile=%ProgramFiles%\Firefly Studios\Stronghold Crusader
-Default=False
-FileKey1=%ProgramFiles%\Firefly Studios\Stronghold Crusader\gfx|*log.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Firefly Studios\Stronghold Crusader\gfx|*log.txt
 
 [Structured Storage Viewer*]
 LangSecRef=3024
@@ -16413,12 +14478,6 @@ LangSecRef=3024
 DetectFile=%AppData%\Sublime Text 3\
 Default=False
 FileKey1=%AppData%\Sublime Text 3\Local|Session.sublime_session
-
-[Success Story*]
-Section=Games
-DetectFile=%AppData%\Shape Games\SuccessStory
-Default=False
-FileKey1=%AppData%\Shape Games\SuccessStory\logs|*.*
 
 [SumatraPDF*]
 LangSecRef=3024
@@ -16515,12 +14574,6 @@ FileKey2=%CommonAppData%\SuperMP3Download\Downloading|*.*|RECURSE
 FileKey3=%LocalAppData%\VirtualStore\ProgramData\SuperMP3Download|downloadlist.sav
 FileKey4=%LocalAppData%\VirtualStore\ProgramData\SuperMP3Download\Downloading|*.*|RECURSE
 
-[Superstar Racing*]
-Section=Games
-DetectFile=%LocalAppData%\Chat Republic Games\Superstar Racing
-Default=False
-FileKey1=%LocalAppData%\Chat Republic Games\Superstar Racing|log*.*
-
 [SuperSync Logs*]
 LangSecRef=3023
 DetectFile=%AppData%\SuperSync
@@ -16613,12 +14666,6 @@ Detect=HKCU\Software\Syncovery
 Default=False
 FileKey1=%CommonAppData%\Syncovery\Logs|*.log|RECURSE
 FileKey2=%LocalAppData%\VirtualStore\ProgramData\Syncovery\Logs|*.log|RECURSE
-
-[Synthesia*]
-Section=Games
-Detect=HKCU\Software\Classes\synthesia
-Default=False
-FileKey1=%AppData%\Synthesia|log.txt;log-configuration.txt
 
 [System Mechanic (Snapshots)*]
 LangSecRef=3024
@@ -16765,42 +14812,6 @@ Default=False
 FileKey1=%ProgramFiles%\TeamViewer|*.tmp|RECURSE
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\TeamViewer|*.tmp|RECURSE
 
-[Technic Launcher Backups*]
-Section=Games
-DetectFile1=%AppData%\.techniclauncher
-DetectFile2=%AppData%\.technic
-Default=False
-FileKey1=%AppData%\.technicLauncher\*\Backups|*.*|RECURSE
-FileKey2=%AppData%\.technic\*\Backups|*.*|RECURSE
-
-[Technic Launcher Cache*]
-Section=Games
-DetectFile1=%AppData%\.techniclauncher
-DetectFile2=%AppData%\.techniclauncher
-Default=False
-FileKey1=%AppData%\.technic\cache|*.*
-FileKey2=%AppData%\.techniclauncher\cache|*.*
-
-[Technic Launcher Screenshots*]
-Section=Games
-DetectFile1=%AppData%\.techniclauncher
-DetectFile2=%AppData%\.technic
-Default=False
-FileKey1=%AppData%\.techniclauncher\*\Screenshots|*.*
-FileKey2=%AppData%\.technic\*\Screenshots|*.*
-
-[Technic Launcher*]
-Section=Games
-DetectFile1=%AppData%\.techniclauncher
-DetectFile2=%AppData%\.techniclauncher
-Default=False
-FileKey1=%AppData%\.technic|*.old;*.log;*.tmp|RECURSE
-FileKey2=%AppData%\.technic\*\logs|*.*|RECURSE
-FileKey3=%AppData%\.technic\temp|*.*RECURSE
-FileKey4=%AppData%\.techniclauncher|*.old;*.log;*.tmp|RECURSE
-FileKey5=%AppData%\.technicLauncher\*\logs|*.*|RECURSE
-FileKey6=%AppData%\.techniclauncher\temp|*.*RECURSE
-
 [TechSmith DubIt*]
 LangSecRef=3023
 Detect=HKCU\Software\TechSmith\DubIt
@@ -16809,60 +14820,6 @@ FileKey1=%ProgramFiles%\TechSmith\DubIt|*.gid
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\TechSmith\DubIt|*.gid
 RegKey1=HKCU\Software\TechSmith\DubIt\Recent Audio Files
 RegKey2=HKCU\Software\TechSmith\DubIt\Recent Video Files
-
-[TEdit*]
-Section=Games
-DetectFile=%AppData%\TEdit
-Default=False
-FileKey1=%AppData%\TEdit\undo|*.*|RECURSE
-
-[Teeworlds Demos*]
-Section=Games
-DetectFile=%AppData%\Teeworlds
-Default=False
-FileKey1=%AppData%\Teeworlds\demos|*.*|REMOVESELF
-
-[Teeworlds Downloaded Files*]
-Section=Games
-DetectFile=%AppData%\Teeworlds
-Default=False
-FileKey1=%AppData%\Teeworlds\downloadedfiles|*.*|REMOVESELF
-
-[Teeworlds Downloaded Maps*]
-Section=Games
-DetectFile=%AppData%\Teeworlds
-Default=False
-FileKey1=%AppData%\Teeworlds\downloadedmaps|*.*|REMOVESELF
-
-[Teeworlds Dumps*]
-Section=Games
-DetectFile=%AppData%\Teeworlds
-Default=False
-FileKey1=%AppData%\Teeworlds\dumps|*.*|REMOVESELF
-
-[Teeworlds Ghosts*]
-Section=Games
-DetectFile=%AppData%\Teeworlds
-Default=False
-FileKey1=%AppData%\Teeworlds\ghosts|*.*|REMOVESELF
-
-[Teeworlds Maps*]
-Section=Games
-DetectFile=%AppData%\Teeworlds
-Default=False
-FileKey1=%AppData%\Teeworlds\maps|*.*|REMOVESELF
-
-[Teeworlds Screenshots*]
-Section=Games
-DetectFile=%AppData%\Teeworlds
-Default=False
-FileKey1=%AppData%\Teewords\Screenshots|*.*|REMOVESELF
-
-[Teeworlds Temp*]
-Section=Games
-DetectFile=%AppData%\Teeworlds
-Default=False
-FileKey1=%AppData%\Teeworlds\tmp|*.*|REMOVESELF
 
 [Tele2 Mobile Partner*]
 LangSecRef=3022
@@ -16902,20 +14859,6 @@ FileKey1=%AppData%\TeraCopy|FileList.dat;Transfer.log
 FileKey2=%ProgramFiles%\TeraCopy|FileList.dat;Transfer.log
 FileKey3=%LocalAppData%\VirtualStore\Program Files*\TeraCopy|FileList.dat;Transfer.log
 RegKey1=HKCU\Software\Code Sector\TeraCopy|LastTargetFolder
-
-[Terraria*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\105600
-Default=False
-FileKey1=%Documents%\My Games\Terraria|*.bak;*.wld.bak|RECURSE
-FileKey2=%ProgramFiles%\Steam\steamapps\common\terraria|client-crashlog.txt
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\terraria|client-crashlog.txt
-
-[Tesla Legacy*]
-Section=Games
-DetectFile=%LocalAppData%\Astar Games\Tesla Legacy
-Default=False
-FileKey1=%LocalAppData%\Astar Games\Tesla Legacy|*.log
 
 [TestPilot Error Logs*]
 LangSecRef=3026
@@ -16958,25 +14901,6 @@ FileKey1=%AppData%\thecleaner|*.log
 FileKey2=%ProgramFiles%\The Cleaner|*.log;*.tmp;*.bak|RECURSE
 FileKey3=%LocalAppData%\VirtualStore\Program Files*\The Cleaner|*.log;*.tmp;*.bak|RECURSE
 
-[The Clumsys 2: The Butterfly Effect*]
-Section=Games
-DetectFile=%LocalAppData%\BanzaiInteractive\Clumsys2
-Default=False
-FileKey1=%AppData%\BanzaiInteractive\Clumsys2|logfile.txt
-
-[The Dream Machine*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\94300
-Default=False
-FileKey1=%ProgramFiles%\Steam\steamapps\common\The Dream Machine\the_dream_machine.app|*.*|REMOVESELF
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\steamapps\common\The Dream Machine\the_dream_machine.app|*.*|REMOVESELF
-
-[The Mystery of the Mary Celeste*]
-Section=Games
-DetectFile=%AppData%\Merscom\The Mystery of the Mary Celeste
-Default=False
-FileKey1=%AppData%\Merscom\The Mystery of the Mary Celeste|logfile.txt
-
 [The Weather Channel*]
 LangSecRef=3031
 Detect=HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\TheWeatherChannel_t3yemqpq4kp7p
@@ -16990,12 +14914,6 @@ FileKey5=%LocalAppData%\Packages\Weather.TheWeatherChannel_*\AC\Temp|*.*
 FileKey6=%LocalAppData%\Packages\Weather.TheWeatherChannel_*\LocalState|*.tmp
 FileKey7=%LocalAppData%\Packages\Weather.TheWeatherChannel_*\TempState\Bing.Maps\Cache|*.*|RECURSE
 
-[The Women's Murder Club 3: Twice in a Blue Moon*]
-Section=Games
-DetectFile=%AppData%\Flood Light Games\WMC3
-Default=False
-FileKey1=%AppData%\Flood Light Games\WMC3|*.log
-
 [Thinstall Database*]
 LangSecRef=3021
 DetectFile1=%AppData%\Thinstall
@@ -17004,13 +14922,6 @@ Default=False
 Warning=This will remove your Portable's settings. If settings are stored in the program's folder, this is fine.
 FileKey1=%AppData%\Thinstall|*.*|REMOVESELF
 FileKey2=%LocalAppData%\Thinstall|*.*|REMOVESELF
-
-[Thomas Was Alone*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\220780
-Default=False
-FileKey1=%ProgramFiles%\Steam\Steamapps\common\thomaswasalone\ThomasWasAlone_Data|output_log.txt
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\common\thomaswasalone\ThomasWasAlone_Data|output_log.txt
 
 [ThumbsPlus 8/9/10*]
 LangSecRef=3023
@@ -17132,12 +15043,6 @@ DetectFile=%LocalAppData%\Tinder*
 Default=False
 FileKey1=%LocalAppData%\Tinder*|*.*|RECURSE
 
-[Tinseltown Dreams*]
-Section=Games
-DetectFile=%LocalAppData%\Namco Networks\Tinseltown Dreams
-Default=False
-FileKey1=%LocalAppData%\Namco Networks\Tinseltown Dreams|errors*.*;log.txt
-
 [Tipard Total Media Converter Platinum*]
 LangSecRef=3023
 Detect=HKCU\Software\Tipard Studio\Tipard Total Media Converter Platinum
@@ -17204,21 +15109,6 @@ FileKey1=%AppData%\TomTom\HOME\Profiles\*|Log.txt
 FileKey2=%LocalAppData%\TomTom\HOME3|Log.txt
 FileKey3=%LocalAppData%\TomTom\HOME3\cache|*.*|RECURSE
 
-[ToonTown Rewritten*]
-Section=Games
-DetectFile=%ProgramFiles%\ToonTown Rewritten
-Default=False
-FileKey1=%ProgramFiles%\ToonTown ReWritten\logs|*.*
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\ToonTown ReWritten\logs|*.*
-
-[ToonTown*]
-Section=Games
-DetectFile=%LocalLowAppData%\Panda3D
-Default=False
-FileKey1=%LocalLowAppData%\Panda3D\Log|*.*
-FileKey2=%ProgramFiles%\Disney\Disney Online\ToontownOnline|*.log
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Disney\Disney Online\ToontownOnline|*.log
-
 [TopStyle 5*]
 LangSecRef=3021
 Detect=HKCU\Software\Bradbury\TopStyle\5.0
@@ -17271,20 +15161,6 @@ LangSecRef=3029
 Detect=HKCU\Software\Torch
 Default=False
 FileKey1=%LocalAppData%\Torch\User Data\*|Current Tabs;Current session;Last Tabs;Last Session
-
-[Torchlight 2*]
-Section=Games
-Detect1=HKCU\Software\Valve\Steam\Apps\200710
-Detect2=HKLM\Software\Runic Games\Torchlight II
-Default=False
-FileKey1=%Documents%\My Games\Runic Games\Torchlight 2\logs|*.*
-
-[Torchlight*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\41500
-DetectFile=%AppData%\Runic Games\Torchlight
-Default=False
-FileKey1=%AppData%\Runic Games\Torchlight|*.log
 
 [Toshiba BluetoothStack*]
 LangSecRef=3024
@@ -17362,13 +15238,6 @@ FileKey2=%ProgramFiles%\Total Uninstall*|*.rtf;*.txt|RECURSE
 FileKey3=%LocalAppData%\VirtualStore\Program Files*\Total Uninstall*|*.rtf;*.txt|RECURSE
 FileKey4=%LocalAppData%\VirtualStore\ProgramData\Martau\Total Uninstall*|*.Folders;*.cache|RECURSE
 
-[Towns*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\221020
-Default=False
-FileKey1=%ProgramFiles%\Steam\Steamapps\common\towns|*.log
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\Steamapps\common\towns|*.log
-
 [TP-Link*]
 LangSecRef=3022
 DetectFile=%CommonAppData%\TP-Link
@@ -17425,20 +15294,6 @@ Default=False
 FileKey1=%ProgramFiles%\Trend Micro\RUBotted\DebugLogs|*.*|REMOVESELF
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\Trend Micro\RUBotted\DebugLogs|*.*|REMOVESELF
 
-[Tribes: Ascend Cache*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\17080\
-Default=False
-FileKey1=%CommonAppData%\Hi-Rez Studios\BrowserCacheTribes\Default\Cache|*.*|RECURSE
-
-[Tribes: Ascend*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\17080\
-Default=False
-FileKey1=%Documents%\My Games\Tribes Ascend\TribesGame\Logs|*.*
-FileKey2=%ProgramFiles%\Steam\steamapps\common\tribes\Binaries\Logs|*.*
-FileKey3=%LocalAppData%\VirtualStore\ProgramFiles*\Steam\steamapps\common\tribes\Binaries\Logs|*.*
-
 [Trillian Logs*]
 LangSecRef=3022
 Detect=HKLM\Software\Clients\IM\Trillian
@@ -17460,22 +15315,6 @@ FileKey8=%ProgramFiles%\Trillian\Users\Default\instantlookup|*.*
 FileKey9=%LocalAppData%\VirtualStore\Program Files*\Trillian\Crash Files|*.*|RECURSE
 FileKey10=%LocalAppData%\VirtualStore\Program Files*\Trillian\Users\Default\buddyicons|*.*|RECURSE
 FileKey11=%LocalAppData%\VirtualStore\Program Files*\Trillian\Users\Default\instantlookup|*.*
-
-[Trine 2*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\35720
-Default=False
-FileKey1=%ProgramFiles%\Steam\SteamApps\Common\Trine 2\log|*.*
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamApps\Common\Trine 2\log|*.*
-
-[Trine*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\35700
-Default=False
-FileKey1=%ProgramFiles%\Steam\SteamApps\Common\Trine\logs|*.*
-FileKey2=%ProgramFiles%\Steam\SteamApps\common\Trine\_enchanted_edition_\log|*.*
-FileKey3=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamApps\Common\Trine\logs|*.*
-FileKey4=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamApps\common\Trine\_enchanted_edition_\log|*.*
 
 [TrojanHunter (Debug Logs)*]
 LangSecRef=3024
@@ -17629,12 +15468,6 @@ FileKey2=%LocalAppData%\Packages\*Twitter_*\AC\INetCookies|*.*|RECURSE
 FileKey3=%LocalAppData%\Packages\*Twitter_*\AC\Microsoft\*|*.LOG|RECURSE
 FileKey4=%LocalAppData%\Packages\*Twitter_*\AC\PRICache|*.*
 FileKey5=%LocalAppData%\Packages\*Twitter_*\LocalState|*.*|RECURSE
-
-[Two Worlds Epic Edition*]
-Section=Games
-Detect=HKCU\Software\Valve\Steam\Apps\1930
-Default=False
-FileKey1=%Documents%\TwoWorlds Files\FontsCache|*.tmp
 
 [Ulead GIF Animator 5.05*]
 LangSecRef=3024
@@ -18211,27 +16044,6 @@ DetectFile=%ProgramFiles%\Wall Watcher\WallWatcher.exe
 Default=False
 FileKey1=%ProgramFiles%\Wall Watcher\Logs|*.*
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\Wall Watcher\Logs|*.*
-
-[War of the Human Tanks*]
-Section=Games
-DetectFile=%ProgramFiles%\Desura\Common\war-of-the-human-tanks
-Default=False
-FileKey1=%ProgramFiles%\Desura\Common\war-of-the-human-tanks\LOG|*.*
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\Desura\Common\war-of-the-human-tanks\LOG|*.*
-
-[War Thunder*]
-Section=Games
-Detect1=HKCU\Software\Gaijin\WarThunder
-Detect2=HKCU\Software\Valve\Steam\Apps\236390
-Default=False
-FileKey1=%ProgramFiles%\War Thunder\.launcher_log|*.txt
-FileKey2=%ProgramFiles%\War Thunder\_debuginfo|*.clog
-FileKey3=%ProgramFiles%\Steam\SteamApps\common\War Thunder\.launcher_log|*.txt
-FileKey4=%ProgramFiles%\Steam\SteamApps\common\War Thunder\_debuginfo|*.clog
-FileKey5=%LocalAppData%\VirtualStore\Program Files*\War Thunder\.launcher_log|*.txt
-FileKey6=%LocalAppData%\VirtualStore\Program Files*\War Thunder\_debuginfo|*.clog
-FileKey7=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamApps\common\War Thunder\.launcher_log|*.txt
-FileKey8=%LocalAppData%\VirtualStore\Program Files*\Steam\SteamApps\common\War Thunder\_debuginfo|*.clog
 
 [WashAndGo Backups*]
 LangSecRef=3024
@@ -18843,12 +16655,6 @@ Warning=This will delete window size, window position and view setting of all fo
 RegKey1=HKCU\Software\Microsoft\Windows\ShellNoRoam\BagMRU
 RegKey2=HKCU\Software\Microsoft\Windows\ShellNoRoam\Bags
 
-[Winemaker Extraordinaire*]
-Section=Games
-DetectFile=%AppData%\UClick\Winemaker Extraordinaire
-Default=False
-FileKey1=%AppData%\UClick\Winemaker Extraordinaire|logfile.txt
-
 [WinGate*]
 LangSecRef=3021
 Detect=HKCU\Software\Qbik Software\GateKeeper
@@ -19036,20 +16842,6 @@ Default=False
 FileKey1=%ProgramFiles%\WM Recorder*|log.txt;urls.txt
 FileKey2=%LocalAppData%\VirtualStore\Program Files*\WM Recorder*|log.txt;urls.txt
 
-[Wolf: MP*]
-Section=Games
-DetectFile=%LocalAppData%\id Software\WolfMP
-Default=False
-FileKey1=%LocalAppData%\id Software\WolfMP|*.log|RECURSE
-
-[WolfQuest*]
-Section=Games
-Detect=HKLM\Software\Microsoft\Windows\CurrentVersion\Uninstall\{9E6AD6CF-1EFF-43E4-86C4-5C00254C3D8E}
-Default=False
-FileKey1=%ProgramFiles%\WolfQuest|*.txt|RECURSE
-FileKey2=%LocalAppData%\VirtualStore\Program Files*\WolfQuest|*.txt|RECURSE
-ExcludeKey1=FILE|%ProgramFiles%\WolfQuest\Help.txt
-
 [Wondershare Dr.Fone for Android*]
 LangSecRef=3021
 Detect=HKLM\SOFTWARE\Wondershare\Dr.Fone for Android
@@ -19124,16 +16916,6 @@ FileKey1=%LocalAppData%\Microsoft\WorldWideTelescope\dem|*.*|RECURSE
 FileKey2=%LocalAppData%\Microsoft\WorldWideTelescope\Imagery|*.*|RECURSE
 FileKey3=%LocalAppData%\Microsoft\WorldWideTelescope\tourcache|*.*|RECURSE
 
-[Wowhead Client*]
-Section=Games
-Detect=HKCU\Software\Wowhead\WowHead Client
-Default=False
-FileKey1=%CommonAppData%\wowhead\wowhead client\cache|*.*|REMOVESELF
-FileKey2=%CommonAppData%\wowhead\wowhead client\log|*.*|REMOVESELF
-FileKey3=%LocalAppData%\VirtualStore\ProgramData\wowhead\wowhead client\cache|*.*|REMOVESELF
-FileKey4=%LocalAppData%\VirtualStore\ProgramData\wowhead\wowhead client\log|*.*|REMOVESELF
-RegKey1=HKCU\Software\Wowhead\WowHead Client|Statistics
-
 [WRAL Desktop Alert Logs*]
 LangSecRef=3024
 DetectFile=%ProgramFiles%\WRAL Desktop Alert
@@ -19168,28 +16950,6 @@ DetectFile=%ProgramFiles%\X-NetStat Professional\xns5.exe
 Default=False
 FileKey1=%AppData%\X-NetStat\Logs|*.*
 
-[Xbox LIVE Games*]
-LangSecRef=3031
-Detect=HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxLIVEGames_8wekyb3d8bbwe
-DetectFile=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_8wekyb3d8bbwe
-Default=False
-FileKey1=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_*\AC\AppCache|*.*|RECURSE
-FileKey2=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_*\AC\INetCache|*.*|RECURSE
-FileKey3=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_*\AC\INetCookies|*.*|RECURSE
-FileKey4=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_*\AC\INetHistory|*.*|RECURSE
-FileKey5=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_*\AC\Microsoft\CLR_v4.0\UsageLogs|*.*|RECURSE
-FileKey6=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_*\AC\Microsoft\CryptnetUrlCache\Content|*.*
-FileKey7=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_*\AC\Microsoft\CryptnetUrlCache\MetaData|*.*
-FileKey8=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_*\AC\Microsoft\Internet Explorer\DOMStore|*.*|RECURSE
-FileKey9=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_*\AC\PRICache|*.*
-FileKey10=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_*\AC\Temp|*.*
-FileKey11=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_*\LocalState\Cache|*.*|RECURSE
-FileKey12=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_*\LocalState\ImageCache|*.*|RECURSE
-FileKey13=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_*\LocalState\navigationHistory|*.*|RECURSE
-FileKey14=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_*\LocalState\PlayReady|*.*|RECURSE
-FileKey15=%LocalAppData%\Packages\Microsoft.XboxLIVEGames_*\TempState|*.*|RECURSE
-RegKey1=HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppModel\SystemAppData\Microsoft.XboxLIVEGames_8wekyb3d8bbwe\SearchHistory
-
 [Xenocode Sandbox Cache*]
 LangSecRef=3021
 Detect=HKCU\Software\Xenocode\SandboxCache
@@ -19204,23 +16964,6 @@ DetectFile=%CommonAppData%\Xerox\PrinterDriver
 Default=False
 FileKey1=%CommonAppData%\Xerox\PrinterDriver|*.tmp|RECURSE
 FileKey2=%LocalAppData%\VirtualStore\ProgramData\Xerox\PrinterDriver|*.tmp|RECURSE
-
-[Xfire More*]
-Section=Games
-Detect=HKLM\Software\Xfire
-Default=False
-Warning=Selecting this will delete any screen shots and videos you have taken, make sure you upload or move any you want to keep so they're not deleted.
-FileKey1=%CommonAppData%\Xfire|*.bak
-FileKey2=%CommonAppData%\xfire\videos|*.*
-FileKey3=%LocalAppData%\VirtualStore\ProgramData\Xfire|*.bak
-FileKey4=%LocalAppData%\VirtualStore\ProgramData\xfire\videos|*.*
-
-[Xfire Updates*]
-Section=Games
-Detect=HKLM\Software\Xfire
-Default=False
-FileKey1=%CommonAppData%\Xfire\downloads|*.zip
-FileKey2=%LocalAppData%\VirtualStore\ProgramData\Xfire\downloads|*.zip
 
 [Xilisoft AVI to DVD Converter*]
 LangSecRef=3023
